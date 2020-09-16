@@ -1,0 +1,6 @@
+2020-02-14 21:42:51,093#INFO#org.hibernate.jpa.internal.util.LogHelper#[localhost-startStop-1]#HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-14 21:42:51,461#INFO#org.hibernate.Version#[localhost-startStop-1]#HHH000412: Hibernate Core {5.2.16.Final}
+2020-02-14 21:42:51,468#INFO#org.hibernate.cfg.Environment#[localhost-startStop-1]#HHH000206: hibernate.properties not found
+2020-02-14 21:42:51,574#INFO#org.hibernate.annotations.common.Version#[localhost-startStop-1]#HCANN000001: Hibernate Commons Annotations {5.0.1.Final}

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: application.model.data.ArduinoModelTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.854 s - in application.model.data.ArduinoModelTest

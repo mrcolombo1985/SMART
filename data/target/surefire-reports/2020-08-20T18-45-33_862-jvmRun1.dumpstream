@@ -1,0 +1,1341 @@
+# Created on 2020-08-20T19:26:24.035
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2020-08-20T19:26:24.528
+Unexpected IOException with stream: 2020-08-20 19:26:24,527 2448652 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:24.533
+Unexpected IOException with stream: 2020-08-20 19:26:24,530 2448655 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:24.534
+Unexpected IOException with stream: 2020-08-20 19:26:24,533 2448658 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:24.537
+Unexpected IOException with stream: 2020-08-20 19:26:24,536 2448661 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:24.540
+Unexpected IOException with stream: 2020-08-20 19:26:24,539 2448664 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:24.543
+Unexpected IOException with stream: 2020-08-20 19:26:24,542 2448667 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:24.545
+Unexpected IOException with stream: 2020-08-20 19:26:24,544 2448669 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.032, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45249, value=-2.749152777884909}
+
+
+# Created on 2020-08-20T19:26:24.549
+Unexpected IOException with stream: 2020-08-20 19:26:24,547 2448672 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45249]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:24.551
+Unexpected IOException with stream: 2020-08-20 19:26:24,550 2448675 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:24.554
+Unexpected IOException with stream: 2020-08-20 19:26:24,553 2448678 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:24.556
+Unexpected IOException with stream: 2020-08-20 19:26:24,555 2448680 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.560
+Unexpected IOException with stream: 2020-08-20 19:26:24,558 2448683 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:24.562
+Unexpected IOException with stream: 2020-08-20 19:26:24,561 2448686 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@64639585]
+
+
+# Created on 2020-08-20T19:26:24.565
+Unexpected IOException with stream: 2020-08-20 19:26:24,564 2448689 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.568
+Unexpected IOException with stream: 2020-08-20 19:26:24,567 2448692 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:24.571
+Unexpected IOException with stream: 2020-08-20 19:26:24,570 2448695 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:24.574
+Unexpected IOException with stream: 2020-08-20 19:26:24,572 2448697 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:24.576
+Unexpected IOException with stream: 2020-08-20 19:26:24,575 2448700 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45250
+
+
+# Created on 2020-08-20T19:26:24.579
+Unexpected IOException with stream: 2020-08-20 19:26:24,578 2448703 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:24.581
+Unexpected IOException with stream: 2020-08-20 19:26:24,580 2448705 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:24.584
+Unexpected IOException with stream: 2020-08-20 19:26:24,583 2448708 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45250]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:24.587
+Unexpected IOException with stream: 2020-08-20 19:26:24,586 2448711 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:24.589
+Unexpected IOException with stream: 2020-08-20 19:26:24,588 2448713 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:24.592
+Unexpected IOException with stream: 2020-08-20 19:26:24,591 2448716 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:24.594
+Unexpected IOException with stream: 2020-08-20 19:26:24,593 2448718 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:24.597
+Unexpected IOException with stream: 2020-08-20 19:26:24,597 2448722 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:24.600
+Unexpected IOException with stream: 2020-08-20 19:26:24,599 2448724 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:24.603
+Unexpected IOException with stream: 2020-08-20 19:26:24,602 2448727 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.553, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45250, value=-33.759472707721685}
+
+
+# Created on 2020-08-20T19:26:24.606
+Unexpected IOException with stream: 2020-08-20 19:26:24,606 2448731 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45250]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:24.608
+Unexpected IOException with stream: 2020-08-20 19:26:24,607 2448732 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:24.611
+Unexpected IOException with stream: 2020-08-20 19:26:24,609 2448734 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:24.613
+Unexpected IOException with stream: 2020-08-20 19:26:24,612 2448737 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.615
+Unexpected IOException with stream: 2020-08-20 19:26:24,614 2448739 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:24.618
+Unexpected IOException with stream: 2020-08-20 19:26:24,618 2448743 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@678717f7]
+
+
+# Created on 2020-08-20T19:26:24.620
+Unexpected IOException with stream: 2020-08-20 19:26:24,620 2448745 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.624
+Unexpected IOException with stream: 2020-08-20 19:26:24,623 2448748 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:24.627
+Unexpected IOException with stream: 2020-08-20 19:26:24,625 2448750 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:24.628
+Unexpected IOException with stream: 2020-08-20 19:26:24,627 2448752 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:24.631
+Unexpected IOException with stream: 2020-08-20 19:26:24,630 2448755 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45251
+
+
+# Created on 2020-08-20T19:26:24.634
+Unexpected IOException with stream: 2020-08-20 19:26:24,632 2448757 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:24.636
+Unexpected IOException with stream: 2020-08-20 19:26:24,635 2448760 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:24.639
+Unexpected IOException with stream: 2020-08-20 19:26:24,639 2448764 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45251]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:24.641
+Unexpected IOException with stream: 2020-08-20 19:26:24,641 2448766 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:24.644
+Unexpected IOException with stream: 2020-08-20 19:26:24,643 2448768 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:24.647
+Unexpected IOException with stream: 2020-08-20 19:26:24,646 2448771 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:24.649
+Unexpected IOException with stream: 2020-08-20 19:26:24,648 2448773 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:24.651
+Unexpected IOException with stream: 2020-08-20 19:26:24,651 2448776 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:24.653
+Unexpected IOException with stream: 2020-08-20 19:26:24,653 2448778 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:24.656
+Unexpected IOException with stream: 2020-08-20 19:26:24,656 2448781 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.609, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45251, value=-6.7851995169626065}
+
+
+# Created on 2020-08-20T19:26:24.658
+Unexpected IOException with stream: 2020-08-20 19:26:24,658 2448783 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45251]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:24.662
+Unexpected IOException with stream: 2020-08-20 19:26:24,661 2448786 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:24.664
+Unexpected IOException with stream: 2020-08-20 19:26:24,663 2448788 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:24.666
+Unexpected IOException with stream: 2020-08-20 19:26:24,666 2448791 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.670
+Unexpected IOException with stream: 2020-08-20 19:26:24,668 2448793 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:24.672
+Unexpected IOException with stream: 2020-08-20 19:26:24,671 2448796 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@141bdea2]
+
+
+# Created on 2020-08-20T19:26:24.675
+Unexpected IOException with stream: 2020-08-20 19:26:24,674 2448799 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.677
+Unexpected IOException with stream: 2020-08-20 19:26:24,677 2448802 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:24.681
+Unexpected IOException with stream: 2020-08-20 19:26:24,681 2448806 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:24.684
+Unexpected IOException with stream: 2020-08-20 19:26:24,683 2448808 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:24.687
+Unexpected IOException with stream: 2020-08-20 19:26:24,686 2448811 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45252
+
+
+# Created on 2020-08-20T19:26:24.689
+Unexpected IOException with stream: 2020-08-20 19:26:24,689 2448814 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:24.693
+Unexpected IOException with stream: 2020-08-20 19:26:24,692 2448817 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:24.697
+Unexpected IOException with stream: 2020-08-20 19:26:24,696 2448821 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45252]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:24.699
+Unexpected IOException with stream: 2020-08-20 19:26:24,699 2448824 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:24.702
+Unexpected IOException with stream: 2020-08-20 19:26:24,702 2448827 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:24.706
+Unexpected IOException with stream: 2020-08-20 19:26:24,705 2448830 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:24.708
+Unexpected IOException with stream: 2020-08-20 19:26:24,708 2448833 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:24.710
+Unexpected IOException with stream: 2020-08-20 19:26:24,709 2448834 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:24.714
+Unexpected IOException with stream: 2020-08-20 19:26:24,712 2448837 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:24.715
+Unexpected IOException with stream: 2020-08-20 19:26:24,715 2448840 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.663, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45252, value=-47.446516229046885}
+
+
+# Created on 2020-08-20T19:26:24.718
+Unexpected IOException with stream: 2020-08-20 19:26:24,718 2448843 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45252]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:24.721
+Unexpected IOException with stream: 2020-08-20 19:26:24,720 2448845 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:24.724
+Unexpected IOException with stream: 2020-08-20 19:26:24,723 2448848 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:24.728
+Unexpected IOException with stream: 2020-08-20 19:26:24,727 2448852 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.730
+Unexpected IOException with stream: 2020-08-20 19:26:24,729 2448854 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:24.732
+Unexpected IOException with stream: 2020-08-20 19:26:24,731 2448856 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@76462fba]
+
+
+# Created on 2020-08-20T19:26:24.735
+Unexpected IOException with stream: 2020-08-20 19:26:24,735 2448860 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.739
+Unexpected IOException with stream: 2020-08-20 19:26:24,738 2448863 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:24.741
+Unexpected IOException with stream: 2020-08-20 19:26:24,740 2448865 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:24.744
+Unexpected IOException with stream: 2020-08-20 19:26:24,743 2448868 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:24.746
+Unexpected IOException with stream: 2020-08-20 19:26:24,746 2448871 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45253
+
+
+# Created on 2020-08-20T19:26:24.749
+Unexpected IOException with stream: 2020-08-20 19:26:24,749 2448874 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:24.752
+Unexpected IOException with stream: 2020-08-20 19:26:24,752 2448877 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:24.755
+Unexpected IOException with stream: 2020-08-20 19:26:24,754 2448879 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45253]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:24.758
+Unexpected IOException with stream: 2020-08-20 19:26:24,758 2448883 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:24.760
+Unexpected IOException with stream: 2020-08-20 19:26:24,760 2448885 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:24.763
+Unexpected IOException with stream: 2020-08-20 19:26:24,763 2448888 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:24.765
+Unexpected IOException with stream: 2020-08-20 19:26:24,765 2448890 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:24.768
+Unexpected IOException with stream: 2020-08-20 19:26:24,767 2448892 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:24.771
+Unexpected IOException with stream: 2020-08-20 19:26:24,770 2448895 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:24.773
+Unexpected IOException with stream: 2020-08-20 19:26:24,773 2448898 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.723, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45253, value=10.495347392819085}
+
+
+# Created on 2020-08-20T19:26:24.776
+Unexpected IOException with stream: 2020-08-20 19:26:24,775 2448900 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45253]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:24.778
+Unexpected IOException with stream: 2020-08-20 19:26:24,778 2448903 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:24.781
+Unexpected IOException with stream: 2020-08-20 19:26:24,781 2448906 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:24.784
+Unexpected IOException with stream: 2020-08-20 19:26:24,784 2448909 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.788
+Unexpected IOException with stream: 2020-08-20 19:26:24,788 2448913 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:24.791
+Unexpected IOException with stream: 2020-08-20 19:26:24,791 2448916 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@19993]
+
+
+# Created on 2020-08-20T19:26:24.794
+Unexpected IOException with stream: 2020-08-20 19:26:24,794 2448919 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.796
+Unexpected IOException with stream: 2020-08-20 19:26:24,796 2448921 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:24.799
+Unexpected IOException with stream: 2020-08-20 19:26:24,799 2448924 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:24.803
+Unexpected IOException with stream: 2020-08-20 19:26:24,802 2448927 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:24.806
+Unexpected IOException with stream: 2020-08-20 19:26:24,806 2448931 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45254
+
+
+# Created on 2020-08-20T19:26:24.808
+Unexpected IOException with stream: 2020-08-20 19:26:24,808 2448933 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:24.812
+Unexpected IOException with stream: 2020-08-20 19:26:24,810 2448935 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:24.814
+Unexpected IOException with stream: 2020-08-20 19:26:24,814 2448939 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45254]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:24.819
+Unexpected IOException with stream: 2020-08-20 19:26:24,818 2448943 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:24.822
+Unexpected IOException with stream: 2020-08-20 19:26:24,821 2448946 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:24.825
+Unexpected IOException with stream: 2020-08-20 19:26:24,824 2448949 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:24.828
+Unexpected IOException with stream: 2020-08-20 19:26:24,827 2448952 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:24.831
+Unexpected IOException with stream: 2020-08-20 19:26:24,830 2448955 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:24.833
+Unexpected IOException with stream: 2020-08-20 19:26:24,832 2448957 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:24.836
+Unexpected IOException with stream: 2020-08-20 19:26:24,836 2448961 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.781, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45254, value=31.02652492348787}
+
+
+# Created on 2020-08-20T19:26:24.839
+Unexpected IOException with stream: 2020-08-20 19:26:24,839 2448964 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45254]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:24.843
+Unexpected IOException with stream: 2020-08-20 19:26:24,843 2448968 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:24.846
+Unexpected IOException with stream: 2020-08-20 19:26:24,846 2448971 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:24.849
+Unexpected IOException with stream: 2020-08-20 19:26:24,848 2448973 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.853
+Unexpected IOException with stream: 2020-08-20 19:26:24,852 2448977 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:24.855
+Unexpected IOException with stream: 2020-08-20 19:26:24,855 2448980 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6722feda]
+
+
+# Created on 2020-08-20T19:26:24.858
+Unexpected IOException with stream: 2020-08-20 19:26:24,858 2448983 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.863
+Unexpected IOException with stream: 2020-08-20 19:26:24,862 2448987 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:24.866
+Unexpected IOException with stream: 2020-08-20 19:26:24,866 2448991 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:24.870
+Unexpected IOException with stream: 2020-08-20 19:26:24,868 2448993 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:24.873
+Unexpected IOException with stream: 2020-08-20 19:26:24,872 2448997 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45255
+
+
+# Created on 2020-08-20T19:26:24.875
+Unexpected IOException with stream: 2020-08-20 19:26:24,874 2448999 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:24.878
+Unexpected IOException with stream: 2020-08-20 19:26:24,877 2449002 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:24.883
+Unexpected IOException with stream: 2020-08-20 19:26:24,882 2449007 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45255]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:24.885
+Unexpected IOException with stream: 2020-08-20 19:26:24,885 2449010 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:24.889
+Unexpected IOException with stream: 2020-08-20 19:26:24,888 2449013 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:24.893
+Unexpected IOException with stream: 2020-08-20 19:26:24,892 2449017 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:24.895
+Unexpected IOException with stream: 2020-08-20 19:26:24,894 2449019 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:24.899
+Unexpected IOException with stream: 2020-08-20 19:26:24,899 2449024 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:24.903
+Unexpected IOException with stream: 2020-08-20 19:26:24,902 2449027 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:24.905
+Unexpected IOException with stream: 2020-08-20 19:26:24,905 2449030 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.846, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45255, value=-0.6177785696296709}
+
+
+# Created on 2020-08-20T19:26:24.910
+Unexpected IOException with stream: 2020-08-20 19:26:24,909 2449034 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45255]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:24.913
+Unexpected IOException with stream: 2020-08-20 19:26:24,913 2449038 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:24.916
+Unexpected IOException with stream: 2020-08-20 19:26:24,916 2449041 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:24.919
+Unexpected IOException with stream: 2020-08-20 19:26:24,919 2449044 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.924
+Unexpected IOException with stream: 2020-08-20 19:26:24,923 2449048 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:24.927
+Unexpected IOException with stream: 2020-08-20 19:26:24,927 2449052 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@54571ea3]
+
+
+# Created on 2020-08-20T19:26:24.930
+Unexpected IOException with stream: 2020-08-20 19:26:24,930 2449055 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:24.934
+Unexpected IOException with stream: 2020-08-20 19:26:24,934 2449059 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:24.938
+Unexpected IOException with stream: 2020-08-20 19:26:24,937 2449062 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:24.942
+Unexpected IOException with stream: 2020-08-20 19:26:24,941 2449066 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:24.945
+Unexpected IOException with stream: 2020-08-20 19:26:24,945 2449070 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45256
+
+
+# Created on 2020-08-20T19:26:24.948
+Unexpected IOException with stream: 2020-08-20 19:26:24,948 2449073 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:24.953
+Unexpected IOException with stream: 2020-08-20 19:26:24,952 2449077 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:24.955
+Unexpected IOException with stream: 2020-08-20 19:26:24,955 2449080 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45256]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:24.959
+Unexpected IOException with stream: 2020-08-20 19:26:24,958 2449083 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:24.963
+Unexpected IOException with stream: 2020-08-20 19:26:24,962 2449087 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:24.967
+Unexpected IOException with stream: 2020-08-20 19:26:24,966 2449091 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:24.969
+Unexpected IOException with stream: 2020-08-20 19:26:24,969 2449094 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:24.974
+Unexpected IOException with stream: 2020-08-20 19:26:24,973 2449098 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:24.978
+Unexpected IOException with stream: 2020-08-20 19:26:24,977 2449102 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:24.980
+Unexpected IOException with stream: 2020-08-20 19:26:24,980 2449105 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.916, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45256, value=8.202555685372928}
+
+
+# Created on 2020-08-20T19:26:24.984
+Unexpected IOException with stream: 2020-08-20 19:26:24,984 2449109 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45256]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:24.988
+Unexpected IOException with stream: 2020-08-20 19:26:24,988 2449113 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:24.992
+Unexpected IOException with stream: 2020-08-20 19:26:24,992 2449117 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:24.997
+Unexpected IOException with stream: 2020-08-20 19:26:24,996 2449121 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.000
+Unexpected IOException with stream: 2020-08-20 19:26:25,000 2449125 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.005
+Unexpected IOException with stream: 2020-08-20 19:26:25,004 2449129 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@65f1fedb]
+
+
+# Created on 2020-08-20T19:26:25.008
+Unexpected IOException with stream: 2020-08-20 19:26:25,008 2449133 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.012
+Unexpected IOException with stream: 2020-08-20 19:26:25,012 2449137 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.017
+Unexpected IOException with stream: 2020-08-20 19:26:25,015 2449140 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.021
+Unexpected IOException with stream: 2020-08-20 19:26:25,019 2449144 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.025
+Unexpected IOException with stream: 2020-08-20 19:26:25,024 2449149 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45257
+
+
+# Created on 2020-08-20T19:26:25.028
+Unexpected IOException with stream: 2020-08-20 19:26:25,028 2449153 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:25.031
+Unexpected IOException with stream: 2020-08-20 19:26:25,031 2449156 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:25.036
+Unexpected IOException with stream: 2020-08-20 19:26:25,035 2449160 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45257]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:25.041
+Unexpected IOException with stream: 2020-08-20 19:26:25,040 2449165 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:25.043
+Unexpected IOException with stream: 2020-08-20 19:26:25,043 2449168 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:25.047
+Unexpected IOException with stream: 2020-08-20 19:26:25,047 2449172 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:25.051
+Unexpected IOException with stream: 2020-08-20 19:26:25,050 2449175 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:25.055
+Unexpected IOException with stream: 2020-08-20 19:26:25,054 2449179 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:25.059
+Unexpected IOException with stream: 2020-08-20 19:26:25,058 2449183 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:25.063
+Unexpected IOException with stream: 2020-08-20 19:26:25,063 2449188 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:24.992, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45257, value=27.253046552360942}
+
+
+# Created on 2020-08-20T19:26:25.067
+Unexpected IOException with stream: 2020-08-20 19:26:25,067 2449192 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45257]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:25.071
+Unexpected IOException with stream: 2020-08-20 19:26:25,070 2449195 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:25.076
+Unexpected IOException with stream: 2020-08-20 19:26:25,075 2449200 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:25.080
+Unexpected IOException with stream: 2020-08-20 19:26:25,079 2449204 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.083
+Unexpected IOException with stream: 2020-08-20 19:26:25,082 2449207 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.088
+Unexpected IOException with stream: 2020-08-20 19:26:25,087 2449212 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@2f820ecc]
+
+
+# Created on 2020-08-20T19:26:25.092
+Unexpected IOException with stream: 2020-08-20 19:26:25,091 2449216 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.096
+Unexpected IOException with stream: 2020-08-20 19:26:25,095 2449220 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.099
+Unexpected IOException with stream: 2020-08-20 19:26:25,099 2449224 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.103
+Unexpected IOException with stream: 2020-08-20 19:26:25,103 2449228 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.107
+Unexpected IOException with stream: 2020-08-20 19:26:25,107 2449232 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45258
+
+
+# Created on 2020-08-20T19:26:25.112
+Unexpected IOException with stream: 2020-08-20 19:26:25,112 2449237 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:25.116
+Unexpected IOException with stream: 2020-08-20 19:26:25,116 2449241 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:25.120
+Unexpected IOException with stream: 2020-08-20 19:26:25,120 2449245 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45258]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:25.124
+Unexpected IOException with stream: 2020-08-20 19:26:25,124 2449249 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:25.128
+Unexpected IOException with stream: 2020-08-20 19:26:25,128 2449253 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:25.133
+Unexpected IOException with stream: 2020-08-20 19:26:25,132 2449257 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:25.137
+Unexpected IOException with stream: 2020-08-20 19:26:25,136 2449261 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:25.141
+Unexpected IOException with stream: 2020-08-20 19:26:25,140 2449265 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:25.144
+Unexpected IOException with stream: 2020-08-20 19:26:25,144 2449269 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:25.148
+Unexpected IOException with stream: 2020-08-20 19:26:25,147 2449272 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:25.075, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45258, value=29.6949460460514}
+
+
+# Created on 2020-08-20T19:26:25.152
+Unexpected IOException with stream: 2020-08-20 19:26:25,152 2449277 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45258]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:25.155
+Unexpected IOException with stream: 2020-08-20 19:26:25,155 2449280 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:25.161
+Unexpected IOException with stream: 2020-08-20 19:26:25,160 2449285 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:25.165
+Unexpected IOException with stream: 2020-08-20 19:26:25,163 2449288 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.168
+Unexpected IOException with stream: 2020-08-20 19:26:25,168 2449293 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.173
+Unexpected IOException with stream: 2020-08-20 19:26:25,172 2449297 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@31937eb8]
+
+
+# Created on 2020-08-20T19:26:25.177
+Unexpected IOException with stream: 2020-08-20 19:26:25,176 2449301 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.181
+Unexpected IOException with stream: 2020-08-20 19:26:25,181 2449306 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.185
+Unexpected IOException with stream: 2020-08-20 19:26:25,185 2449310 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.191
+Unexpected IOException with stream: 2020-08-20 19:26:25,190 2449315 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.196
+Unexpected IOException with stream: 2020-08-20 19:26:25,195 2449320 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45259
+
+
+# Created on 2020-08-20T19:26:25.200
+Unexpected IOException with stream: 2020-08-20 19:26:25,199 2449324 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:25.203
+Unexpected IOException with stream: 2020-08-20 19:26:25,203 2449328 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:25.208
+Unexpected IOException with stream: 2020-08-20 19:26:25,207 2449332 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45259]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:25.212
+Unexpected IOException with stream: 2020-08-20 19:26:25,211 2449336 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:25.216
+Unexpected IOException with stream: 2020-08-20 19:26:25,215 2449340 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:25.221
+Unexpected IOException with stream: 2020-08-20 19:26:25,220 2449345 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:25.225
+Unexpected IOException with stream: 2020-08-20 19:26:25,225 2449350 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:25.230
+Unexpected IOException with stream: 2020-08-20 19:26:25,229 2449354 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:25.233
+Unexpected IOException with stream: 2020-08-20 19:26:25,233 2449358 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:25.238
+Unexpected IOException with stream: 2020-08-20 19:26:25,237 2449362 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:25.160, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45259, value=-38.63741992764985}
+
+
+# Created on 2020-08-20T19:26:25.242
+Unexpected IOException with stream: 2020-08-20 19:26:25,241 2449366 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45259]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:25.247
+Unexpected IOException with stream: 2020-08-20 19:26:25,246 2449371 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:25.251
+Unexpected IOException with stream: 2020-08-20 19:26:25,251 2449376 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:25.256
+Unexpected IOException with stream: 2020-08-20 19:26:25,255 2449380 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.260
+Unexpected IOException with stream: 2020-08-20 19:26:25,259 2449384 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.264
+Unexpected IOException with stream: 2020-08-20 19:26:25,264 2449389 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4bd6ed20]
+
+
+# Created on 2020-08-20T19:26:25.269
+Unexpected IOException with stream: 2020-08-20 19:26:25,268 2449393 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.273
+Unexpected IOException with stream: 2020-08-20 19:26:25,272 2449397 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.277
+Unexpected IOException with stream: 2020-08-20 19:26:25,276 2449401 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.281
+Unexpected IOException with stream: 2020-08-20 19:26:25,280 2449405 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.285
+Unexpected IOException with stream: 2020-08-20 19:26:25,284 2449409 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45260
+
+
+# Created on 2020-08-20T19:26:25.289
+Unexpected IOException with stream: 2020-08-20 19:26:25,289 2449414 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:25.293
+Unexpected IOException with stream: 2020-08-20 19:26:25,293 2449418 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:25.297
+Unexpected IOException with stream: 2020-08-20 19:26:25,297 2449422 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45260]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:25.302
+Unexpected IOException with stream: 2020-08-20 19:26:25,301 2449426 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:25.306
+Unexpected IOException with stream: 2020-08-20 19:26:25,305 2449430 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:25.310
+Unexpected IOException with stream: 2020-08-20 19:26:25,309 2449434 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:25.314
+Unexpected IOException with stream: 2020-08-20 19:26:25,314 2449439 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:25.319
+Unexpected IOException with stream: 2020-08-20 19:26:25,318 2449443 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:25.323
+Unexpected IOException with stream: 2020-08-20 19:26:25,323 2449448 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:25.328
+Unexpected IOException with stream: 2020-08-20 19:26:25,327 2449452 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:25.251, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45260, value=-48.403585931389216}
+
+
+# Created on 2020-08-20T19:26:25.332
+Unexpected IOException with stream: 2020-08-20 19:26:25,331 2449456 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45260]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:25.337
+Unexpected IOException with stream: 2020-08-20 19:26:25,336 2449461 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:25.341
+Unexpected IOException with stream: 2020-08-20 19:26:25,340 2449465 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:25.345
+Unexpected IOException with stream: 2020-08-20 19:26:25,345 2449470 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.350
+Unexpected IOException with stream: 2020-08-20 19:26:25,349 2449474 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.354
+Unexpected IOException with stream: 2020-08-20 19:26:25,354 2449479 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@11de165]
+
+
+# Created on 2020-08-20T19:26:25.359
+Unexpected IOException with stream: 2020-08-20 19:26:25,358 2449483 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.364
+Unexpected IOException with stream: 2020-08-20 19:26:25,363 2449488 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.369
+Unexpected IOException with stream: 2020-08-20 19:26:25,368 2449493 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.373
+Unexpected IOException with stream: 2020-08-20 19:26:25,372 2449497 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.377
+Unexpected IOException with stream: 2020-08-20 19:26:25,376 2449501 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45261
+
+
+# Created on 2020-08-20T19:26:25.382
+Unexpected IOException with stream: 2020-08-20 19:26:25,382 2449507 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:25.387
+Unexpected IOException with stream: 2020-08-20 19:26:25,386 2449511 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:25.392
+Unexpected IOException with stream: 2020-08-20 19:26:25,391 2449516 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45261]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:25.397
+Unexpected IOException with stream: 2020-08-20 19:26:25,396 2449521 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:25.401
+Unexpected IOException with stream: 2020-08-20 19:26:25,401 2449526 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:25.406
+Unexpected IOException with stream: 2020-08-20 19:26:25,406 2449531 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:25.413
+Unexpected IOException with stream: 2020-08-20 19:26:25,411 2449536 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:25.417
+Unexpected IOException with stream: 2020-08-20 19:26:25,417 2449542 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:25.423
+Unexpected IOException with stream: 2020-08-20 19:26:25,422 2449547 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:25.428
+Unexpected IOException with stream: 2020-08-20 19:26:25,427 2449552 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:25.340, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45261, value=-27.451186413323004}
+
+
+# Created on 2020-08-20T19:26:25.433
+Unexpected IOException with stream: 2020-08-20 19:26:25,432 2449557 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45261]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:25.438
+Unexpected IOException with stream: 2020-08-20 19:26:25,437 2449562 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:25.443
+Unexpected IOException with stream: 2020-08-20 19:26:25,442 2449567 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:25.448
+Unexpected IOException with stream: 2020-08-20 19:26:25,447 2449572 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.453
+Unexpected IOException with stream: 2020-08-20 19:26:25,451 2449576 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.457
+Unexpected IOException with stream: 2020-08-20 19:26:25,457 2449582 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@1ef97068]
+
+
+# Created on 2020-08-20T19:26:25.462
+Unexpected IOException with stream: 2020-08-20 19:26:25,461 2449586 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.466
+Unexpected IOException with stream: 2020-08-20 19:26:25,466 2449591 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.471
+Unexpected IOException with stream: 2020-08-20 19:26:25,470 2449595 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.476
+Unexpected IOException with stream: 2020-08-20 19:26:25,475 2449600 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.481
+Unexpected IOException with stream: 2020-08-20 19:26:25,480 2449605 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45262
+
+
+# Created on 2020-08-20T19:26:25.485
+Unexpected IOException with stream: 2020-08-20 19:26:25,484 2449609 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:25.490
+Unexpected IOException with stream: 2020-08-20 19:26:25,489 2449614 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:25.494
+Unexpected IOException with stream: 2020-08-20 19:26:25,494 2449619 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45262]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:25.499
+Unexpected IOException with stream: 2020-08-20 19:26:25,498 2449623 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:25.504
+Unexpected IOException with stream: 2020-08-20 19:26:25,503 2449628 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:25.508
+Unexpected IOException with stream: 2020-08-20 19:26:25,507 2449632 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:25.513
+Unexpected IOException with stream: 2020-08-20 19:26:25,512 2449637 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:25.517
+Unexpected IOException with stream: 2020-08-20 19:26:25,517 2449642 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:25.522
+Unexpected IOException with stream: 2020-08-20 19:26:25,522 2449647 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:25.527
+Unexpected IOException with stream: 2020-08-20 19:26:25,526 2449651 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:25.442, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45262, value=14.718132870068246}
+
+
+# Created on 2020-08-20T19:26:25.532
+Unexpected IOException with stream: 2020-08-20 19:26:25,531 2449656 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45262]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:25.536
+Unexpected IOException with stream: 2020-08-20 19:26:25,536 2449661 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:25.541
+Unexpected IOException with stream: 2020-08-20 19:26:25,540 2449665 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:25.546
+Unexpected IOException with stream: 2020-08-20 19:26:25,545 2449670 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.550
+Unexpected IOException with stream: 2020-08-20 19:26:25,550 2449675 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.555
+Unexpected IOException with stream: 2020-08-20 19:26:25,554 2449679 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@732c6b1f]
+
+
+# Created on 2020-08-20T19:26:25.560
+Unexpected IOException with stream: 2020-08-20 19:26:25,559 2449684 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.565
+Unexpected IOException with stream: 2020-08-20 19:26:25,564 2449689 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.570
+Unexpected IOException with stream: 2020-08-20 19:26:25,570 2449695 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.575
+Unexpected IOException with stream: 2020-08-20 19:26:25,574 2449699 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.580
+Unexpected IOException with stream: 2020-08-20 19:26:25,579 2449704 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45263
+
+
+# Created on 2020-08-20T19:26:25.585
+Unexpected IOException with stream: 2020-08-20 19:26:25,584 2449709 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:25.590
+Unexpected IOException with stream: 2020-08-20 19:26:25,589 2449714 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:25.595
+Unexpected IOException with stream: 2020-08-20 19:26:25,594 2449719 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45263]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:25.601
+Unexpected IOException with stream: 2020-08-20 19:26:25,600 2449725 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:25.607
+Unexpected IOException with stream: 2020-08-20 19:26:25,606 2449731 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:25.613
+Unexpected IOException with stream: 2020-08-20 19:26:25,612 2449737 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:25.618
+Unexpected IOException with stream: 2020-08-20 19:26:25,617 2449742 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:25.623
+Unexpected IOException with stream: 2020-08-20 19:26:25,622 2449747 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:25.629
+Unexpected IOException with stream: 2020-08-20 19:26:25,628 2449753 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:25.633
+Unexpected IOException with stream: 2020-08-20 19:26:25,633 2449758 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:25.540, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45263, value=15.82064280145012}
+
+
+# Created on 2020-08-20T19:26:25.639
+Unexpected IOException with stream: 2020-08-20 19:26:25,638 2449763 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45263]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:25.644
+Unexpected IOException with stream: 2020-08-20 19:26:25,643 2449768 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:25.650
+Unexpected IOException with stream: 2020-08-20 19:26:25,648 2449773 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:25.654
+Unexpected IOException with stream: 2020-08-20 19:26:25,654 2449779 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.660
+Unexpected IOException with stream: 2020-08-20 19:26:25,659 2449784 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.665
+Unexpected IOException with stream: 2020-08-20 19:26:25,664 2449789 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4165c69a]
+
+
+# Created on 2020-08-20T19:26:25.670
+Unexpected IOException with stream: 2020-08-20 19:26:25,669 2449794 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.675
+Unexpected IOException with stream: 2020-08-20 19:26:25,674 2449799 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.680
+Unexpected IOException with stream: 2020-08-20 19:26:25,679 2449804 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.685
+Unexpected IOException with stream: 2020-08-20 19:26:25,685 2449810 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.691
+Unexpected IOException with stream: 2020-08-20 19:26:25,690 2449815 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45264
+
+
+# Created on 2020-08-20T19:26:25.696
+Unexpected IOException with stream: 2020-08-20 19:26:25,695 2449820 [main] DEBUG o.h.r.j.i.ResourceRegistryStandardImpl - HHH000387: ResultSet's statement was not registered
+
+
+# Created on 2020-08-20T19:26:25.701
+Unexpected IOException with stream: 2020-08-20 19:26:25,700 2449825 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+
+
+# Created on 2020-08-20T19:26:25.706
+Unexpected IOException with stream: 2020-08-20 19:26:25,705 2449830 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45264]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])]
+
+
+# Created on 2020-08-20T19:26:25.711
+Unexpected IOException with stream: 2020-08-20 19:26:25,710 2449835 [main] DEBUG o.h.e.t.internal.TransactionImpl - committing
+
+
+# Created on 2020-08-20T19:26:25.716
+Unexpected IOException with stream: 2020-08-20 19:26:25,715 2449840 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T19:26:25.721
+Unexpected IOException with stream: 2020-08-20 19:26:25,720 2449845 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T19:26:25.726
+Unexpected IOException with stream: 2020-08-20 19:26:25,726 2449851 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+
+
+# Created on 2020-08-20T19:26:25.732
+Unexpected IOException with stream: 2020-08-20 19:26:25,731 2449856 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+
+
+# Created on 2020-08-20T19:26:25.739
+Unexpected IOException with stream: 2020-08-20 19:26:25,738 2449863 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T19:26:25.745
+Unexpected IOException with stream: 2020-08-20 19:26:25,744 2449869 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ValueEntity{timeUpdate=19:26:25.648, dateUpdate=2020-08-20, sensor=application.entities.data.SensorEntity#45, id=45264, value=17.543173521612687}
+
+
+# Created on 2020-08-20T19:26:25.750
+Unexpected IOException with stream: 2020-08-20 19:26:25,750 2449875 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ValueEntity#45264]],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] after transaction
+
+
+# Created on 2020-08-20T19:26:25.757
+Unexpected IOException with stream: 2020-08-20 19:26:25,756 2449881 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+
+
+# Created on 2020-08-20T19:26:25.763
+Unexpected IOException with stream: 2020-08-20 19:26:25,762 2449887 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [application.models.data.value.ValueModel.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT
+
+
+# Created on 2020-08-20T19:26:25.769
+Unexpected IOException with stream: 2020-08-20 19:26:25,769 2449894 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.775
+Unexpected IOException with stream: 2020-08-20 19:26:25,774 2449899 [main] DEBUG o.h.e.t.internal.TransactionImpl - begin
+
+
+# Created on 2020-08-20T19:26:25.781
+Unexpected IOException with stream: 2020-08-20 19:26:25,780 2449905 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@27e8301e]
+
+
+# Created on 2020-08-20T19:26:25.788
+Unexpected IOException with stream: 2020-08-20 19:26:25,787 2449912 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[],collectionKeys=[]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T19:26:25.794
+Unexpected IOException with stream: 2020-08-20 19:26:25,793 2449918 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T19:26:25.799
+Unexpected IOException with stream: 2020-08-20 19:26:25,799 2449924 [main] DEBUG o.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+
+
+# Created on 2020-08-20T19:26:25.805
+Unexpected IOException with stream: 2020-08-20 19:26:25,804 2449929 [main] DEBUG org.hibernate.SQL - insert into value_entity (id, dateu, sensor_id, timeu, valuedata) values (null, ?, ?, ?, ?)
+
+
+# Created on 2020-08-20T19:26:25.811
+Unexpected IOException with stream: 2020-08-20 19:26:25,810 2449935 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 45265
+
+

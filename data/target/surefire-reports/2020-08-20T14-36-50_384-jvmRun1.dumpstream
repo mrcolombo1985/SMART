@@ -1,0 +1,953 @@
+# Created on 2020-08-20T14:42:59.229
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(Unknown Source)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Unknown Source)
+
+
+# Created on 2020-08-20T14:42:59.237
+Unexpected IOException with stream: 2020-08-20 14:42:59,225 365679 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#40], was: [application.entities.data.SensorEntity.optionEntities#40] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.260
+Unexpected IOException with stream: 2020-08-20 14:42:59,258 365712 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#40], was: [application.entities.data.SensorEntity.valueEntitys#40] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.263
+Unexpected IOException with stream: 2020-08-20 14:42:59,261 365715 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#41], was: [application.entities.data.SensorEntity.optionEntities#41] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.266
+Unexpected IOException with stream: 2020-08-20 14:42:59,265 365719 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#41], was: [application.entities.data.SensorEntity.valueEntitys#41] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.271
+Unexpected IOException with stream: 2020-08-20 14:42:59,268 365722 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#42], was: [application.entities.data.SensorEntity.optionEntities#42] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.275
+Unexpected IOException with stream: 2020-08-20 14:42:59,274 365728 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#42], was: [application.entities.data.SensorEntity.valueEntitys#42] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.283
+Unexpected IOException with stream: 2020-08-20 14:42:59,277 365731 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#43], was: [application.entities.data.SensorEntity.optionEntities#43] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.286
+Unexpected IOException with stream: 2020-08-20 14:42:59,284 365738 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#43], was: [application.entities.data.SensorEntity.valueEntitys#43] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.290
+Unexpected IOException with stream: 2020-08-20 14:42:59,288 365742 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#44], was: [application.entities.data.SensorEntity.optionEntities#44] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.293
+Unexpected IOException with stream: 2020-08-20 14:42:59,292 365746 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#44], was: [application.entities.data.SensorEntity.valueEntitys#44] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.296
+Unexpected IOException with stream: 2020-08-20 14:42:59,295 365749 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#45], was: [application.entities.data.SensorEntity.optionEntities#45] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.304
+Unexpected IOException with stream: 2020-08-20 14:42:59,298 365752 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#45], was: [application.entities.data.SensorEntity.valueEntitys#45] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.310
+Unexpected IOException with stream: 2020-08-20 14:42:59,308 365762 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#46], was: [application.entities.data.SensorEntity.optionEntities#46] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.330
+Unexpected IOException with stream: 2020-08-20 14:42:59,329 365783 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#46], was: [application.entities.data.SensorEntity.valueEntitys#46] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.334
+Unexpected IOException with stream: 2020-08-20 14:42:59,333 365787 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#47], was: [application.entities.data.SensorEntity.optionEntities#47] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.345
+Unexpected IOException with stream: 2020-08-20 14:42:59,344 365798 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#47], was: [application.entities.data.SensorEntity.valueEntitys#47] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.349
+Unexpected IOException with stream: 2020-08-20 14:42:59,347 365801 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#48], was: [application.entities.data.SensorEntity.optionEntities#48] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.352
+Unexpected IOException with stream: 2020-08-20 14:42:59,351 365805 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#48], was: [application.entities.data.SensorEntity.valueEntitys#48] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.355
+Unexpected IOException with stream: 2020-08-20 14:42:59,354 365808 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#49], was: [application.entities.data.SensorEntity.optionEntities#49] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.359
+Unexpected IOException with stream: 2020-08-20 14:42:59,358 365812 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#49], was: [application.entities.data.SensorEntity.valueEntitys#49] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.374
+Unexpected IOException with stream: 2020-08-20 14:42:59,361 365815 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#50], was: [application.entities.data.SensorEntity.optionEntities#50] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.382
+Unexpected IOException with stream: 2020-08-20 14:42:59,381 365835 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#50], was: [application.entities.data.SensorEntity.valueEntitys#50] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.389
+Unexpected IOException with stream: 2020-08-20 14:42:59,388 365842 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#51], was: [application.entities.data.SensorEntity.optionEntities#51] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.390
+Unexpected IOException with stream: 2020-08-20 14:42:59,389 365843 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#51], was: [application.entities.data.SensorEntity.valueEntitys#51] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.394
+Unexpected IOException with stream: 2020-08-20 14:42:59,393 365847 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#52], was: [application.entities.data.SensorEntity.optionEntities#52] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.399
+Unexpected IOException with stream: 2020-08-20 14:42:59,398 365852 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#52], was: [application.entities.data.SensorEntity.valueEntitys#52] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.402
+Unexpected IOException with stream: 2020-08-20 14:42:59,402 365856 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#53], was: [application.entities.data.SensorEntity.optionEntities#53] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.405
+Unexpected IOException with stream: 2020-08-20 14:42:59,404 365858 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#53], was: [application.entities.data.SensorEntity.valueEntitys#53] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.408
+Unexpected IOException with stream: 2020-08-20 14:42:59,407 365861 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#54], was: [application.entities.data.SensorEntity.optionEntities#54] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.415
+Unexpected IOException with stream: 2020-08-20 14:42:59,412 365866 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#54], was: [application.entities.data.SensorEntity.valueEntitys#54] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.421
+Unexpected IOException with stream: 2020-08-20 14:42:59,420 365874 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#55], was: [application.entities.data.SensorEntity.optionEntities#55] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.426
+Unexpected IOException with stream: 2020-08-20 14:42:59,425 365879 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#55], was: [application.entities.data.SensorEntity.valueEntitys#55] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.432
+Unexpected IOException with stream: 2020-08-20 14:42:59,430 365884 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#56], was: [application.entities.data.SensorEntity.optionEntities#56] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.441
+Unexpected IOException with stream: 2020-08-20 14:42:59,440 365894 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#56], was: [application.entities.data.SensorEntity.valueEntitys#56] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.444
+Unexpected IOException with stream: 2020-08-20 14:42:59,443 365897 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#57], was: [application.entities.data.SensorEntity.optionEntities#57] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.449
+Unexpected IOException with stream: 2020-08-20 14:42:59,447 365901 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#57], was: [application.entities.data.SensorEntity.valueEntitys#57] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.454
+Unexpected IOException with stream: 2020-08-20 14:42:59,451 365905 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#58], was: [application.entities.data.SensorEntity.optionEntities#58] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.460
+Unexpected IOException with stream: 2020-08-20 14:42:59,459 365913 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#58], was: [application.entities.data.SensorEntity.valueEntitys#58] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.466
+Unexpected IOException with stream: 2020-08-20 14:42:59,465 365919 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#59], was: [application.entities.data.SensorEntity.optionEntities#59] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.469
+Unexpected IOException with stream: 2020-08-20 14:42:59,469 365923 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#59], was: [application.entities.data.SensorEntity.valueEntitys#59] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.476
+Unexpected IOException with stream: 2020-08-20 14:42:59,475 365929 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#60], was: [application.entities.data.SensorEntity.optionEntities#60] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.512
+Unexpected IOException with stream: 2020-08-20 14:42:59,509 365963 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#60], was: [application.entities.data.SensorEntity.valueEntitys#60] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.520
+Unexpected IOException with stream: 2020-08-20 14:42:59,518 365972 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#61], was: [application.entities.data.SensorEntity.optionEntities#61] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.523
+Unexpected IOException with stream: 2020-08-20 14:42:59,522 365976 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#61], was: [application.entities.data.SensorEntity.valueEntitys#61] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.529
+Unexpected IOException with stream: 2020-08-20 14:42:59,527 365981 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#62], was: [application.entities.data.SensorEntity.optionEntities#62] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.533
+Unexpected IOException with stream: 2020-08-20 14:42:59,533 365987 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#62], was: [application.entities.data.SensorEntity.valueEntitys#62] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.537
+Unexpected IOException with stream: 2020-08-20 14:42:59,536 365990 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#63], was: [application.entities.data.SensorEntity.optionEntities#63] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.542
+Unexpected IOException with stream: 2020-08-20 14:42:59,540 365994 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#63], was: [application.entities.data.SensorEntity.valueEntitys#63] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.546
+Unexpected IOException with stream: 2020-08-20 14:42:59,544 365998 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#64], was: [application.entities.data.SensorEntity.optionEntities#64] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.550
+Unexpected IOException with stream: 2020-08-20 14:42:59,549 366003 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#64], was: [application.entities.data.SensorEntity.valueEntitys#64] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.554
+Unexpected IOException with stream: 2020-08-20 14:42:59,553 366007 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 33 objects
+
+
+# Created on 2020-08-20T14:42:59.557
+Unexpected IOException with stream: 2020-08-20 14:42:59,556 366010 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 66 collections
+
+
+# Created on 2020-08-20T14:42:59.560
+Unexpected IOException with stream: 2020-08-20 14:42:59,559 366013 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T14:42:59.564
+Unexpected IOException with stream: 2020-08-20 14:42:59,562 366016 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ArduinoDeviceEntity{ip=192.168.15.11, name=dataModelTestArduino, description=optionModelTestArduino, id=2, deviceEntities=<uninitialized>, sensorEntities=<uninitialized>, token=testtesttest}
+
+
+# Created on 2020-08-20T14:42:59.567
+Unexpected IOException with stream: 2020-08-20 14:42:59,566 366020 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=97:12:29:19:26:10:60:40:52:82, nameSensor=testtesttest31, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=kfychzcleedutbvh, id=64}
+
+
+# Created on 2020-08-20T14:42:59.571
+Unexpected IOException with stream: 2020-08-20 14:42:59,570 366024 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=98:66:45:05:77:09:67:79:49:39, nameSensor=testtesttest30, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=vkgvtwnfwzpbalvb, id=63}
+
+
+# Created on 2020-08-20T14:42:59.575
+Unexpected IOException with stream: 2020-08-20 14:42:59,574 366028 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=34:50:00:78:16:57:04:30:73:06, nameSensor=testtesttest29, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=edkbsqqryuvqnnqb, id=62}
+
+
+# Created on 2020-08-20T14:42:59.579
+Unexpected IOException with stream: 2020-08-20 14:42:59,577 366031 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=13:05:49:84:33:33:21:31:38:91, nameSensor=testtesttest28, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=nncysudeahnfomri, id=61}
+
+
+# Created on 2020-08-20T14:42:59.584
+Unexpected IOException with stream: 2020-08-20 14:42:59,583 366037 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=15:01:38:58:52:35:31:69:34:05, nameSensor=testtesttest11, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=druvvxvbufqstyeg, id=44}
+
+
+# Created on 2020-08-20T14:42:59.593
+Unexpected IOException with stream: 2020-08-20 14:42:59,592 366046 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=40:92:86:12:58:80:27:83:93:58, nameSensor=testtesttest10, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=shnovlfkiwjwibrj, id=43}
+
+
+# Created on 2020-08-20T14:42:59.616
+Unexpected IOException with stream: 2020-08-20 14:42:59,615 366069 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=20:29:06:26:70:93:56:99:41:04, nameSensor=testtesttest9, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=rblilxaosdbvvsws, id=42}
+
+
+# Created on 2020-08-20T14:42:59.622
+Unexpected IOException with stream: 2020-08-20 14:42:59,620 366074 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=69:65:57:94:07:46:72:99:80:95, nameSensor=testtesttest8, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=pbktexfifqjwevah, id=41}
+
+
+# Created on 2020-08-20T14:42:59.631
+Unexpected IOException with stream: 2020-08-20 14:42:59,630 366084 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=72:18:28:08:69:41:86:43:30:93, nameSensor=testtesttest7, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=nalzbhuornaibjhw, id=40}
+
+
+# Created on 2020-08-20T14:42:59.636
+Unexpected IOException with stream: 2020-08-20 14:42:59,634 366088 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=61:73:18:13:43:90:31:32:79:13, nameSensor=testtesttest6, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=fhmajgnvnoanzzfy, id=39}
+
+
+# Created on 2020-08-20T14:42:59.641
+Unexpected IOException with stream: 2020-08-20 14:42:59,639 366093 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=10:54:08:92:45:41:60:47:34:92, nameSensor=testtesttest5, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=wqzkkomagdkfcfbi, id=38}
+
+
+# Created on 2020-08-20T14:42:59.646
+Unexpected IOException with stream: 2020-08-20 14:42:59,645 366099 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=43:15:29:69:50:50:09:00:90:90, nameSensor=testtesttest4, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=orautwifgoryewvp, id=37}
+
+
+# Created on 2020-08-20T14:42:59.650
+Unexpected IOException with stream: 2020-08-20 14:42:59,649 366103 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=55:92:18:32:25:00:40:17:56:95, nameSensor=testtesttest3, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=bneckkbcmbalqivb, id=36}
+
+
+# Created on 2020-08-20T14:42:59.654
+Unexpected IOException with stream: 2020-08-20 14:42:59,653 366107 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=86:14:95:62:30:58:27:76:80:51, nameSensor=testtesttest2, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=mojfjbetvrhysrdy, id=35}
+
+
+# Created on 2020-08-20T14:42:59.659
+Unexpected IOException with stream: 2020-08-20 14:42:59,657 366111 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=34:58:49:16:82:34:70:05:15:16, nameSensor=testtesttest1, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=lkvvuqiaonjmktsl, id=34}
+
+
+# Created on 2020-08-20T14:42:59.664
+Unexpected IOException with stream: 2020-08-20 14:42:59,662 366116 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=40:46:38:79:62:14:83:30:04:18, nameSensor=testtesttest0, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=gdqmelvsvlhjaetz, id=33}
+
+
+# Created on 2020-08-20T14:42:59.668
+Unexpected IOException with stream: 2020-08-20 14:42:59,667 366121 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=35:05:15:02:25:67:51:77:58:36, nameSensor=testtesttest27, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=cggruldbqvsdaegq, id=60}
+
+
+# Created on 2020-08-20T14:42:59.671
+Unexpected IOException with stream: 2020-08-20 14:42:59,670 366124 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=97:34:14:23:95:68:58:24:67:71, nameSensor=testtesttest26, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=gyneynxkqctdftkh, id=59}
+
+
+# Created on 2020-08-20T14:42:59.675
+Unexpected IOException with stream: 2020-08-20 14:42:59,673 366127 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=10:83:10:59:25:50:13:85:83:03, nameSensor=testtesttest25, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=oqgppldjfmdbjxod, id=58}
+
+
+# Created on 2020-08-20T14:42:59.680
+Unexpected IOException with stream: 2020-08-20 14:42:59,677 366131 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=82:06:79:99:34:61:14:44:47:95, nameSensor=testtesttest24, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=wjafpoxpiocpushl, id=57}
+
+
+# Created on 2020-08-20T14:42:59.687
+Unexpected IOException with stream: 2020-08-20 14:42:59,684 366138 [main] DEBUG o.h.internal.util.EntityPrinter - More......
+
+
+# Created on 2020-08-20T14:42:59.693
+Unexpected IOException with stream: 2020-08-20 14:42:59,692 366146 [main] DEBUG org.hibernate.SQL - select optionenti0_.id as id1_3_, optionenti0_.command as command2_3_, optionenti0_.data as data3_3_, optionenti0_.dates as dates4_3_, optionenti0_.description as descript5_3_, optionenti0_.device_id as device_10_3_, optionenti0_.iftype as iftype6_3_, optionenti0_.name_option as name_opt7_3_, optionenti0_.sensor_id as sensor_11_3_, optionenti0_.times as times8_3_, optionenti0_.types as types9_3_ from optionz optionenti0_ cross join sensor sensorenti1_ where optionenti0_.sensor_id=sensorenti1_.id and sensorenti1_.name_sensor=?
+
+
+# Created on 2020-08-20T14:42:59.698
+Unexpected IOException with stream: 2020-08-20 14:42:59,696 366150 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ArduinoDeviceEntity#2], EntityKey[application.entities.data.SensorEntity#64], EntityKey[application.entities.data.SensorEntity#63], EntityKey[application.entities.data.SensorEntity#62], EntityKey[application.entities.data.SensorEntity#61], EntityKey[application.entities.data.SensorEntity#44], EntityKey[application.entities.data.SensorEntity#43], EntityKey[application.entities.data.SensorEntity#42], EntityKey[application.entities.data.SensorEntity#41], EntityKey[application.entities.data.SensorEntity#40], EntityKey[application.entities.data.SensorEntity#39], EntityKey[application.entities.data.SensorEntity#38], EntityKey[application.entities.data.SensorEntity#37], EntityKey[application.entities.data.SensorEntity#36], EntityKey[application.entities.data.SensorEntity#35], EntityKey[application.entities.data.SensorEntity#34], EntityKey[application.entities.data.SensorEntity#33], EntityKey[application.entities.data.SensorEntity#60], EntityKey[application.entities.data.SensorEntity#59], EntityKey[application.entities.data.SensorEntity#58], EntityKey[application.entities.data.SensorEntity#57], EntityKey[application.entities.data.SensorEntity#56], EntityKey[application.entities.data.SensorEntity#55], EntityKey[application.entities.data.SensorEntity#54], EntityKey[application.entities.data.SensorEntity#53], EntityKey[application.entities.data.SensorEntity#52], EntityKey[application.entities.data.SensorEntity#51], EntityKey[application.entities.data.SensorEntity#50], EntityKey[application.entities.data.SensorEntity#49], EntityKey[application.entities.data.SensorEntity#48], EntityKey[application.entities.data.SensorEntity#47], EntityKey[application.entities.data.SensorEntity#46], EntityKey[application.entities.data.SensorEntity#45]],collectionKeys=[CollectionKey[application.entities.data.SensorEntity.optionEntities#61], CollectionKey[application.entities.data.SensorEntity.optionEntities#62], CollectionKey[application.entities.data.SensorEntity.optionEntities#63], CollectionKey[application.entities.data.SensorEntity.optionEntities#64], CollectionKey[application.entities.data.ArduinoDeviceEntity.deviceEntities#2], CollectionKey[application.entities.data.SensorEntity.optionEntities#33], CollectionKey[application.entities.data.SensorEntity.optionEntities#34], CollectionKey[application.entities.data.SensorEntity.optionEntities#35], CollectionKey[application.entities.data.SensorEntity.optionEntities#36], CollectionKey[application.entities.data.SensorEntity.optionEntities#41], CollectionKey[application.entities.data.SensorEntity.optionEntities#42], CollectionKey[application.entities.data.SensorEntity.optionEntities#43], CollectionKey[application.entities.data.SensorEntity.optionEntities#44], CollectionKey[application.entities.data.SensorEntity.optionEntities#37], CollectionKey[application.entities.data.SensorEntity.optionEntities#38], CollectionKey[application.entities.data.SensorEntity.optionEntities#39], CollectionKey[application.entities.data.SensorEntity.optionEntities#40], CollectionKey[application.entities.data.SensorEntity.valueEntitys#45], CollectionKey[application.entities.data.SensorEntity.optionEntities#49], CollectionKey[application.entities.data.SensorEntity.valueEntitys#44], CollectionKey[application.entities.data.SensorEntity.optionEntities#50], CollectionKey[application.entities.data.SensorEntity.valueEntitys#47], CollectionKey[application.entities.data.SensorEntity.optionEntities#51], CollectionKey[application.entities.data.SensorEntity.valueEntitys#46], CollectionKey[application.entities.data.SensorEntity.optionEntities#52], CollectionKey[application.entities.data.SensorEntity.valueEntitys#41], CollectionKey[application.entities.data.SensorEntity.optionEntities#45], CollectionKey[application.entities.data.SensorEntity.valueEntitys#40], CollectionKey[application.entities.data.SensorEntity.optionEntities#46], CollectionKey[application.entities.data.SensorEntity.valueEntitys#43], CollectionKey[application.entities.data.SensorEntity.optionEntities#47], CollectionKey[application.entities.data.SensorEntity.valueEntitys#42], CollectionKey[application.entities.data.SensorEntity.optionEntities#48], CollectionKey[application.entities.data.SensorEntity.valueEntitys#37], CollectionKey[application.entities.data.SensorEntity.optionEntities#57], CollectionKey[application.entities.data.SensorEntity.valueEntitys#36], CollectionKey[application.entities.data.SensorEntity.optionEntities#58], CollectionKey[application.entities.data.ArduinoDeviceEntity.sensorEntities#2], CollectionKey[application.entities.data.SensorEntity.valueEntitys#39], CollectionKey[application.entities.data.SensorEntity.optionEntities#59], CollectionKey[application.entities.data.SensorEntity.valueEntitys#38], CollectionKey[application.entities.data.SensorEntity.optionEntities#60], CollectionKey[application.entities.data.SensorEntity.valueEntitys#33], CollectionKey[application.entities.data.SensorEntity.optionEntities#53], CollectionKey[application.entities.data.SensorEntity.optionEntities#54], CollectionKey[application.entities.data.SensorEntity.valueEntitys#35], CollectionKey[application.entities.data.SensorEntity.optionEntities#55], CollectionKey[application.entities.data.SensorEntity.valueEntitys#34], CollectionKey[application.entities.data.SensorEntity.optionEntities#56], CollectionKey[application.entities.data.SensorEntity.valueEntitys#61], CollectionKey[application.entities.data.SensorEntity.valueEntitys#60], CollectionKey[application.entities.data.SensorEntity.valueEntitys#63], CollectionKey[application.entities.data.SensorEntity.valueEntitys#62], CollectionKey[application.entities.data.SensorEntity.valueEntitys#57], CollectionKey[application.entities.data.SensorEntity.valueEntitys#56], CollectionKey[application.entities.data.SensorEntity.valueEntitys#59], CollectionKey[application.entities.data.SensorEntity.valueEntitys#58], CollectionKey[application.entities.data.SensorEntity.valueEntitys#53], CollectionKey[application.entities.data.SensorEntity.valueEntitys#52], CollectionKey[application.entities.data.SensorEntity.valueEntitys#55], CollectionKey[application.entities.data.SensorEntity.valueEntitys#54], CollectionKey[application.entities.data.SensorEntity.valueEntitys#49], CollectionKey[application.entities.data.SensorEntity.valueEntitys#48], CollectionKey[application.entities.data.SensorEntity.valueEntitys#51], CollectionKey[application.entities.data.SensorEntity.valueEntitys#50], CollectionKey[application.entities.data.SensorEntity.valueEntitys#64]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T14:42:59.702
+Unexpected IOException with stream: 2020-08-20 14:42:59,701 366155 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T14:42:59.709
+Unexpected IOException with stream: 2020-08-20 14:42:59,706 366160 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ArduinoDeviceEntity#2], EntityKey[application.entities.data.SensorEntity#64], EntityKey[application.entities.data.SensorEntity#63], EntityKey[application.entities.data.SensorEntity#62], EntityKey[application.entities.data.SensorEntity#61], EntityKey[application.entities.data.SensorEntity#44], EntityKey[application.entities.data.SensorEntity#43], EntityKey[application.entities.data.SensorEntity#42], EntityKey[application.entities.data.SensorEntity#41], EntityKey[application.entities.data.SensorEntity#40], EntityKey[application.entities.data.SensorEntity#39], EntityKey[application.entities.data.SensorEntity#38], EntityKey[application.entities.data.SensorEntity#37], EntityKey[application.entities.data.SensorEntity#36], EntityKey[application.entities.data.SensorEntity#35], EntityKey[application.entities.data.SensorEntity#34], EntityKey[application.entities.data.SensorEntity#33], EntityKey[application.entities.data.SensorEntity#60], EntityKey[application.entities.data.SensorEntity#59], EntityKey[application.entities.data.SensorEntity#58], EntityKey[application.entities.data.SensorEntity#57], EntityKey[application.entities.data.SensorEntity#56], EntityKey[application.entities.data.SensorEntity#55], EntityKey[application.entities.data.SensorEntity#54], EntityKey[application.entities.data.SensorEntity#53], EntityKey[application.entities.data.SensorEntity#52], EntityKey[application.entities.data.SensorEntity#51], EntityKey[application.entities.data.SensorEntity#50], EntityKey[application.entities.data.SensorEntity#49], EntityKey[application.entities.data.SensorEntity#48], EntityKey[application.entities.data.SensorEntity#47], EntityKey[application.entities.data.SensorEntity#46], EntityKey[application.entities.data.SensorEntity#45]],collectionKeys=[CollectionKey[application.entities.data.SensorEntity.optionEntities#61], CollectionKey[application.entities.data.SensorEntity.optionEntities#62], CollectionKey[application.entities.data.SensorEntity.optionEntities#63], CollectionKey[application.entities.data.SensorEntity.optionEntities#64], CollectionKey[application.entities.data.ArduinoDeviceEntity.deviceEntities#2], CollectionKey[application.entities.data.SensorEntity.optionEntities#33], CollectionKey[application.entities.data.SensorEntity.optionEntities#34], CollectionKey[application.entities.data.SensorEntity.optionEntities#35], CollectionKey[application.entities.data.SensorEntity.optionEntities#36], CollectionKey[application.entities.data.SensorEntity.optionEntities#41], CollectionKey[application.entities.data.SensorEntity.optionEntities#42], CollectionKey[application.entities.data.SensorEntity.optionEntities#43], CollectionKey[application.entities.data.SensorEntity.optionEntities#44], CollectionKey[application.entities.data.SensorEntity.optionEntities#37], CollectionKey[application.entities.data.SensorEntity.optionEntities#38], CollectionKey[application.entities.data.SensorEntity.optionEntities#39], CollectionKey[application.entities.data.SensorEntity.optionEntities#40], CollectionKey[application.entities.data.SensorEntity.valueEntitys#45], CollectionKey[application.entities.data.SensorEntity.optionEntities#49], CollectionKey[application.entities.data.SensorEntity.valueEntitys#44], CollectionKey[application.entities.data.SensorEntity.optionEntities#50], CollectionKey[application.entities.data.SensorEntity.valueEntitys#47], CollectionKey[application.entities.data.SensorEntity.optionEntities#51], CollectionKey[application.entities.data.SensorEntity.valueEntitys#46], CollectionKey[application.entities.data.SensorEntity.optionEntities#52], CollectionKey[application.entities.data.SensorEntity.valueEntitys#41], CollectionKey[application.entities.data.SensorEntity.optionEntities#45], CollectionKey[application.entities.data.SensorEntity.valueEntitys#40], CollectionKey[application.entities.data.SensorEntity.optionEntities#46], CollectionKey[application.entities.data.SensorEntity.valueEntitys#43], CollectionKey[application.entities.data.SensorEntity.optionEntities#47], CollectionKey[application.entities.data.SensorEntity.valueEntitys#42], CollectionKey[application.entities.data.SensorEntity.optionEntities#48], CollectionKey[application.entities.data.SensorEntity.valueEntitys#37], CollectionKey[application.entities.data.SensorEntity.optionEntities#57], CollectionKey[application.entities.data.SensorEntity.valueEntitys#36], CollectionKey[application.entities.data.SensorEntity.optionEntities#58], CollectionKey[application.entities.data.ArduinoDeviceEntity.sensorEntities#2], CollectionKey[application.entities.data.SensorEntity.valueEntitys#39], CollectionKey[application.entities.data.SensorEntity.optionEntities#59], CollectionKey[application.entities.data.SensorEntity.valueEntitys#38], CollectionKey[application.entities.data.SensorEntity.optionEntities#60], CollectionKey[application.entities.data.SensorEntity.valueEntitys#33], CollectionKey[application.entities.data.SensorEntity.optionEntities#53], CollectionKey[application.entities.data.SensorEntity.optionEntities#54], CollectionKey[application.entities.data.SensorEntity.valueEntitys#35], CollectionKey[application.entities.data.SensorEntity.optionEntities#55], CollectionKey[application.entities.data.SensorEntity.valueEntitys#34], CollectionKey[application.entities.data.SensorEntity.optionEntities#56], CollectionKey[application.entities.data.SensorEntity.valueEntitys#61], CollectionKey[application.entities.data.SensorEntity.valueEntitys#60], CollectionKey[application.entities.data.SensorEntity.valueEntitys#63], CollectionKey[application.entities.data.SensorEntity.valueEntitys#62], CollectionKey[application.entities.data.SensorEntity.valueEntitys#57], CollectionKey[application.entities.data.SensorEntity.valueEntitys#56], CollectionKey[application.entities.data.SensorEntity.valueEntitys#59], CollectionKey[application.entities.data.SensorEntity.valueEntitys#58], CollectionKey[application.entities.data.SensorEntity.valueEntitys#53], CollectionKey[application.entities.data.SensorEntity.valueEntitys#52], CollectionKey[application.entities.data.SensorEntity.valueEntitys#55], CollectionKey[application.entities.data.SensorEntity.valueEntitys#54], CollectionKey[application.entities.data.SensorEntity.valueEntitys#49], CollectionKey[application.entities.data.SensorEntity.valueEntitys#48], CollectionKey[application.entities.data.SensorEntity.valueEntitys#51], CollectionKey[application.entities.data.SensorEntity.valueEntitys#50], CollectionKey[application.entities.data.SensorEntity.valueEntitys#64]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T14:42:59.715
+Unexpected IOException with stream: 2020-08-20 14:42:59,712 366166 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T14:42:59.721
+Unexpected IOException with stream: 2020-08-20 14:42:59,719 366173 [main] DEBUG com.querydsl.jpa.impl.JPAQuery - select optionEntity from OptionEntity optionEntity where optionEntity.sensor.nameSensor = ?1
+
+
+# Created on 2020-08-20T14:42:59.726
+Unexpected IOException with stream: 2020-08-20 14:42:59,726 366180 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T14:42:59.732
+Unexpected IOException with stream: 2020-08-20 14:42:59,731 366185 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T14:42:59.736
+Unexpected IOException with stream: 2020-08-20 14:42:59,735 366189 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.ArduinoDeviceEntity.deviceEntities#2], was: [application.entities.data.ArduinoDeviceEntity.deviceEntities#2] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.749
+Unexpected IOException with stream: 2020-08-20 14:42:59,747 366201 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.ArduinoDeviceEntity.sensorEntities#2], was: [application.entities.data.ArduinoDeviceEntity.sensorEntities#2] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.754
+Unexpected IOException with stream: 2020-08-20 14:42:59,753 366207 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#33], was: [application.entities.data.SensorEntity.optionEntities#33] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.759
+Unexpected IOException with stream: 2020-08-20 14:42:59,757 366211 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#33], was: [application.entities.data.SensorEntity.valueEntitys#33] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.763
+Unexpected IOException with stream: 2020-08-20 14:42:59,763 366217 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#34], was: [application.entities.data.SensorEntity.optionEntities#34] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.767
+Unexpected IOException with stream: 2020-08-20 14:42:59,766 366220 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#34], was: [application.entities.data.SensorEntity.valueEntitys#34] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.772
+Unexpected IOException with stream: 2020-08-20 14:42:59,770 366224 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#35], was: [application.entities.data.SensorEntity.optionEntities#35] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.777
+Unexpected IOException with stream: 2020-08-20 14:42:59,776 366230 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#35], was: [application.entities.data.SensorEntity.valueEntitys#35] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.784
+Unexpected IOException with stream: 2020-08-20 14:42:59,782 366236 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#36], was: [application.entities.data.SensorEntity.optionEntities#36] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.789
+Unexpected IOException with stream: 2020-08-20 14:42:59,787 366241 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#36], was: [application.entities.data.SensorEntity.valueEntitys#36] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.793
+Unexpected IOException with stream: 2020-08-20 14:42:59,792 366246 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#37], was: [application.entities.data.SensorEntity.optionEntities#37] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.798
+Unexpected IOException with stream: 2020-08-20 14:42:59,797 366251 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#37], was: [application.entities.data.SensorEntity.valueEntitys#37] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.804
+Unexpected IOException with stream: 2020-08-20 14:42:59,803 366257 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#38], was: [application.entities.data.SensorEntity.optionEntities#38] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.820
+Unexpected IOException with stream: 2020-08-20 14:42:59,814 366268 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#38], was: [application.entities.data.SensorEntity.valueEntitys#38] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.839
+Unexpected IOException with stream: 2020-08-20 14:42:59,838 366292 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#39], was: [application.entities.data.SensorEntity.optionEntities#39] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.849
+Unexpected IOException with stream: 2020-08-20 14:42:59,848 366302 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#39], was: [application.entities.data.SensorEntity.valueEntitys#39] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.854
+Unexpected IOException with stream: 2020-08-20 14:42:59,853 366307 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#40], was: [application.entities.data.SensorEntity.optionEntities#40] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.870
+Unexpected IOException with stream: 2020-08-20 14:42:59,869 366323 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#40], was: [application.entities.data.SensorEntity.valueEntitys#40] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.875
+Unexpected IOException with stream: 2020-08-20 14:42:59,874 366328 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#41], was: [application.entities.data.SensorEntity.optionEntities#41] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.879
+Unexpected IOException with stream: 2020-08-20 14:42:59,878 366332 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#41], was: [application.entities.data.SensorEntity.valueEntitys#41] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.883
+Unexpected IOException with stream: 2020-08-20 14:42:59,882 366336 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#42], was: [application.entities.data.SensorEntity.optionEntities#42] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.887
+Unexpected IOException with stream: 2020-08-20 14:42:59,886 366340 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#42], was: [application.entities.data.SensorEntity.valueEntitys#42] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.891
+Unexpected IOException with stream: 2020-08-20 14:42:59,890 366344 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#43], was: [application.entities.data.SensorEntity.optionEntities#43] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.896
+Unexpected IOException with stream: 2020-08-20 14:42:59,894 366348 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#43], was: [application.entities.data.SensorEntity.valueEntitys#43] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.900
+Unexpected IOException with stream: 2020-08-20 14:42:59,899 366353 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#44], was: [application.entities.data.SensorEntity.optionEntities#44] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.903
+Unexpected IOException with stream: 2020-08-20 14:42:59,902 366356 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#44], was: [application.entities.data.SensorEntity.valueEntitys#44] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.909
+Unexpected IOException with stream: 2020-08-20 14:42:59,908 366362 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#45], was: [application.entities.data.SensorEntity.optionEntities#45] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.916
+Unexpected IOException with stream: 2020-08-20 14:42:59,915 366369 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#45], was: [application.entities.data.SensorEntity.valueEntitys#45] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.920
+Unexpected IOException with stream: 2020-08-20 14:42:59,919 366373 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#46], was: [application.entities.data.SensorEntity.optionEntities#46] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.925
+Unexpected IOException with stream: 2020-08-20 14:42:59,923 366377 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#46], was: [application.entities.data.SensorEntity.valueEntitys#46] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.932
+Unexpected IOException with stream: 2020-08-20 14:42:59,930 366384 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#47], was: [application.entities.data.SensorEntity.optionEntities#47] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.940
+Unexpected IOException with stream: 2020-08-20 14:42:59,939 366393 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#47], was: [application.entities.data.SensorEntity.valueEntitys#47] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.945
+Unexpected IOException with stream: 2020-08-20 14:42:59,944 366398 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#48], was: [application.entities.data.SensorEntity.optionEntities#48] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.950
+Unexpected IOException with stream: 2020-08-20 14:42:59,949 366403 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#48], was: [application.entities.data.SensorEntity.valueEntitys#48] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.955
+Unexpected IOException with stream: 2020-08-20 14:42:59,954 366408 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#49], was: [application.entities.data.SensorEntity.optionEntities#49] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.961
+Unexpected IOException with stream: 2020-08-20 14:42:59,960 366414 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#49], was: [application.entities.data.SensorEntity.valueEntitys#49] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.966
+Unexpected IOException with stream: 2020-08-20 14:42:59,965 366419 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#50], was: [application.entities.data.SensorEntity.optionEntities#50] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.971
+Unexpected IOException with stream: 2020-08-20 14:42:59,969 366423 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#50], was: [application.entities.data.SensorEntity.valueEntitys#50] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.978
+Unexpected IOException with stream: 2020-08-20 14:42:59,977 366431 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#51], was: [application.entities.data.SensorEntity.optionEntities#51] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.983
+Unexpected IOException with stream: 2020-08-20 14:42:59,981 366435 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#51], was: [application.entities.data.SensorEntity.valueEntitys#51] (uninitialized)
+
+
+# Created on 2020-08-20T14:42:59.995
+Unexpected IOException with stream: 2020-08-20 14:42:59,993 366447 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#52], was: [application.entities.data.SensorEntity.optionEntities#52] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.000
+Unexpected IOException with stream: 2020-08-20 14:42:59,999 366453 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#52], was: [application.entities.data.SensorEntity.valueEntitys#52] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.005
+Unexpected IOException with stream: 2020-08-20 14:43:00,003 366457 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#53], was: [application.entities.data.SensorEntity.optionEntities#53] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.013
+Unexpected IOException with stream: 2020-08-20 14:43:00,012 366466 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#53], was: [application.entities.data.SensorEntity.valueEntitys#53] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.017
+Unexpected IOException with stream: 2020-08-20 14:43:00,017 366471 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#54], was: [application.entities.data.SensorEntity.optionEntities#54] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.025
+Unexpected IOException with stream: 2020-08-20 14:43:00,024 366478 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#54], was: [application.entities.data.SensorEntity.valueEntitys#54] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.033
+Unexpected IOException with stream: 2020-08-20 14:43:00,031 366485 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#55], was: [application.entities.data.SensorEntity.optionEntities#55] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.037
+Unexpected IOException with stream: 2020-08-20 14:43:00,034 366488 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#55], was: [application.entities.data.SensorEntity.valueEntitys#55] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.052
+Unexpected IOException with stream: 2020-08-20 14:43:00,050 366504 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#56], was: [application.entities.data.SensorEntity.optionEntities#56] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.056
+Unexpected IOException with stream: 2020-08-20 14:43:00,055 366509 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#56], was: [application.entities.data.SensorEntity.valueEntitys#56] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.067
+Unexpected IOException with stream: 2020-08-20 14:43:00,065 366519 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#57], was: [application.entities.data.SensorEntity.optionEntities#57] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.071
+Unexpected IOException with stream: 2020-08-20 14:43:00,070 366524 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#57], was: [application.entities.data.SensorEntity.valueEntitys#57] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.076
+Unexpected IOException with stream: 2020-08-20 14:43:00,075 366529 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#58], was: [application.entities.data.SensorEntity.optionEntities#58] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.083
+Unexpected IOException with stream: 2020-08-20 14:43:00,082 366536 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#58], was: [application.entities.data.SensorEntity.valueEntitys#58] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.088
+Unexpected IOException with stream: 2020-08-20 14:43:00,087 366541 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#59], was: [application.entities.data.SensorEntity.optionEntities#59] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.096
+Unexpected IOException with stream: 2020-08-20 14:43:00,094 366548 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#59], was: [application.entities.data.SensorEntity.valueEntitys#59] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.104
+Unexpected IOException with stream: 2020-08-20 14:43:00,103 366557 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#60], was: [application.entities.data.SensorEntity.optionEntities#60] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.116
+Unexpected IOException with stream: 2020-08-20 14:43:00,115 366569 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#60], was: [application.entities.data.SensorEntity.valueEntitys#60] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.118
+Unexpected IOException with stream: 2020-08-20 14:43:00,116 366570 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#61], was: [application.entities.data.SensorEntity.optionEntities#61] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.123
+Unexpected IOException with stream: 2020-08-20 14:43:00,122 366576 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#61], was: [application.entities.data.SensorEntity.valueEntitys#61] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.129
+Unexpected IOException with stream: 2020-08-20 14:43:00,128 366582 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#62], was: [application.entities.data.SensorEntity.optionEntities#62] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.136
+Unexpected IOException with stream: 2020-08-20 14:43:00,134 366588 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#62], was: [application.entities.data.SensorEntity.valueEntitys#62] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.140
+Unexpected IOException with stream: 2020-08-20 14:43:00,140 366594 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#63], was: [application.entities.data.SensorEntity.optionEntities#63] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.152
+Unexpected IOException with stream: 2020-08-20 14:43:00,151 366605 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#63], was: [application.entities.data.SensorEntity.valueEntitys#63] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.159
+Unexpected IOException with stream: 2020-08-20 14:43:00,158 366612 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#64], was: [application.entities.data.SensorEntity.optionEntities#64] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.166
+Unexpected IOException with stream: 2020-08-20 14:43:00,164 366618 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#64], was: [application.entities.data.SensorEntity.valueEntitys#64] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.171
+Unexpected IOException with stream: 2020-08-20 14:43:00,169 366623 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 33 objects
+
+
+# Created on 2020-08-20T14:43:00.182
+Unexpected IOException with stream: 2020-08-20 14:43:00,181 366635 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 66 collections
+
+
+# Created on 2020-08-20T14:43:00.188
+Unexpected IOException with stream: 2020-08-20 14:43:00,186 366640 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+
+
+# Created on 2020-08-20T14:43:00.193
+Unexpected IOException with stream: 2020-08-20 14:43:00,192 366646 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.ArduinoDeviceEntity{ip=192.168.15.11, name=dataModelTestArduino, description=optionModelTestArduino, id=2, deviceEntities=<uninitialized>, sensorEntities=<uninitialized>, token=testtesttest}
+
+
+# Created on 2020-08-20T14:43:00.198
+Unexpected IOException with stream: 2020-08-20 14:43:00,197 366651 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=97:12:29:19:26:10:60:40:52:82, nameSensor=testtesttest31, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=kfychzcleedutbvh, id=64}
+
+
+# Created on 2020-08-20T14:43:00.202
+Unexpected IOException with stream: 2020-08-20 14:43:00,201 366655 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=98:66:45:05:77:09:67:79:49:39, nameSensor=testtesttest30, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=vkgvtwnfwzpbalvb, id=63}
+
+
+# Created on 2020-08-20T14:43:00.208
+Unexpected IOException with stream: 2020-08-20 14:43:00,206 366660 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=34:50:00:78:16:57:04:30:73:06, nameSensor=testtesttest29, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=edkbsqqryuvqnnqb, id=62}
+
+
+# Created on 2020-08-20T14:43:00.214
+Unexpected IOException with stream: 2020-08-20 14:43:00,212 366666 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=13:05:49:84:33:33:21:31:38:91, nameSensor=testtesttest28, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=nncysudeahnfomri, id=61}
+
+
+# Created on 2020-08-20T14:43:00.221
+Unexpected IOException with stream: 2020-08-20 14:43:00,220 366674 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=15:01:38:58:52:35:31:69:34:05, nameSensor=testtesttest11, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=druvvxvbufqstyeg, id=44}
+
+
+# Created on 2020-08-20T14:43:00.228
+Unexpected IOException with stream: 2020-08-20 14:43:00,227 366681 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=40:92:86:12:58:80:27:83:93:58, nameSensor=testtesttest10, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=shnovlfkiwjwibrj, id=43}
+
+
+# Created on 2020-08-20T14:43:00.235
+Unexpected IOException with stream: 2020-08-20 14:43:00,234 366688 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=20:29:06:26:70:93:56:99:41:04, nameSensor=testtesttest9, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=rblilxaosdbvvsws, id=42}
+
+
+# Created on 2020-08-20T14:43:00.246
+Unexpected IOException with stream: 2020-08-20 14:43:00,243 366697 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=69:65:57:94:07:46:72:99:80:95, nameSensor=testtesttest8, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=pbktexfifqjwevah, id=41}
+
+
+# Created on 2020-08-20T14:43:00.252
+Unexpected IOException with stream: 2020-08-20 14:43:00,250 366704 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=72:18:28:08:69:41:86:43:30:93, nameSensor=testtesttest7, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=nalzbhuornaibjhw, id=40}
+
+
+# Created on 2020-08-20T14:43:00.257
+Unexpected IOException with stream: 2020-08-20 14:43:00,256 366710 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=61:73:18:13:43:90:31:32:79:13, nameSensor=testtesttest6, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=fhmajgnvnoanzzfy, id=39}
+
+
+# Created on 2020-08-20T14:43:00.265
+Unexpected IOException with stream: 2020-08-20 14:43:00,264 366718 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=10:54:08:92:45:41:60:47:34:92, nameSensor=testtesttest5, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=wqzkkomagdkfcfbi, id=38}
+
+
+# Created on 2020-08-20T14:43:00.271
+Unexpected IOException with stream: 2020-08-20 14:43:00,270 366724 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=43:15:29:69:50:50:09:00:90:90, nameSensor=testtesttest4, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=orautwifgoryewvp, id=37}
+
+
+# Created on 2020-08-20T14:43:00.280
+Unexpected IOException with stream: 2020-08-20 14:43:00,279 366733 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=55:92:18:32:25:00:40:17:56:95, nameSensor=testtesttest3, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=bneckkbcmbalqivb, id=36}
+
+
+# Created on 2020-08-20T14:43:00.286
+Unexpected IOException with stream: 2020-08-20 14:43:00,285 366739 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=86:14:95:62:30:58:27:76:80:51, nameSensor=testtesttest2, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=mojfjbetvrhysrdy, id=35}
+
+
+# Created on 2020-08-20T14:43:00.296
+Unexpected IOException with stream: 2020-08-20 14:43:00,290 366744 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=34:58:49:16:82:34:70:05:15:16, nameSensor=testtesttest1, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=lkvvuqiaonjmktsl, id=34}
+
+
+# Created on 2020-08-20T14:43:00.307
+Unexpected IOException with stream: 2020-08-20 14:43:00,302 366756 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=40:46:38:79:62:14:83:30:04:18, nameSensor=testtesttest0, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=gdqmelvsvlhjaetz, id=33}
+
+
+# Created on 2020-08-20T14:43:00.313
+Unexpected IOException with stream: 2020-08-20 14:43:00,312 366766 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=35:05:15:02:25:67:51:77:58:36, nameSensor=testtesttest27, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=cggruldbqvsdaegq, id=60}
+
+
+# Created on 2020-08-20T14:43:00.319
+Unexpected IOException with stream: 2020-08-20 14:43:00,317 366771 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=97:34:14:23:95:68:58:24:67:71, nameSensor=testtesttest26, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=gyneynxkqctdftkh, id=59}
+
+
+# Created on 2020-08-20T14:43:00.341
+Unexpected IOException with stream: 2020-08-20 14:43:00,338 366792 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=10:83:10:59:25:50:13:85:83:03, nameSensor=testtesttest25, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=oqgppldjfmdbjxod, id=58}
+
+
+# Created on 2020-08-20T14:43:00.346
+Unexpected IOException with stream: 2020-08-20 14:43:00,345 366799 [main] DEBUG o.h.internal.util.EntityPrinter - application.entities.data.SensorEntity{optionEntities=<uninitialized>, macAddress=82:06:79:99:34:61:14:44:47:95, nameSensor=testtesttest24, arduino=application.entities.data.ArduinoDeviceEntity#2, pin=55, valueEntitys=<uninitialized>, description=wjafpoxpiocpushl, id=57}
+
+
+# Created on 2020-08-20T14:43:00.351
+Unexpected IOException with stream: 2020-08-20 14:43:00,351 366805 [main] DEBUG o.h.internal.util.EntityPrinter - More......
+
+
+# Created on 2020-08-20T14:43:00.363
+Unexpected IOException with stream: 2020-08-20 14:43:00,360 366814 [main] DEBUG org.hibernate.SQL - select optionenti0_.id as id1_3_, optionenti0_.command as command2_3_, optionenti0_.data as data3_3_, optionenti0_.dates as dates4_3_, optionenti0_.description as descript5_3_, optionenti0_.device_id as device_10_3_, optionenti0_.iftype as iftype6_3_, optionenti0_.name_option as name_opt7_3_, optionenti0_.sensor_id as sensor_11_3_, optionenti0_.times as times8_3_, optionenti0_.types as types9_3_ from optionz optionenti0_ cross join sensor sensorenti1_ where optionenti0_.sensor_id=sensorenti1_.id and sensorenti1_.name_sensor=?
+
+
+# Created on 2020-08-20T14:43:00.370
+Unexpected IOException with stream: 2020-08-20 14:43:00,369 366823 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ArduinoDeviceEntity#2], EntityKey[application.entities.data.SensorEntity#64], EntityKey[application.entities.data.SensorEntity#63], EntityKey[application.entities.data.SensorEntity#62], EntityKey[application.entities.data.SensorEntity#61], EntityKey[application.entities.data.SensorEntity#44], EntityKey[application.entities.data.SensorEntity#43], EntityKey[application.entities.data.SensorEntity#42], EntityKey[application.entities.data.SensorEntity#41], EntityKey[application.entities.data.SensorEntity#40], EntityKey[application.entities.data.SensorEntity#39], EntityKey[application.entities.data.SensorEntity#38], EntityKey[application.entities.data.SensorEntity#37], EntityKey[application.entities.data.SensorEntity#36], EntityKey[application.entities.data.SensorEntity#35], EntityKey[application.entities.data.SensorEntity#34], EntityKey[application.entities.data.SensorEntity#33], EntityKey[application.entities.data.SensorEntity#60], EntityKey[application.entities.data.SensorEntity#59], EntityKey[application.entities.data.SensorEntity#58], EntityKey[application.entities.data.SensorEntity#57], EntityKey[application.entities.data.SensorEntity#56], EntityKey[application.entities.data.SensorEntity#55], EntityKey[application.entities.data.SensorEntity#54], EntityKey[application.entities.data.SensorEntity#53], EntityKey[application.entities.data.SensorEntity#52], EntityKey[application.entities.data.SensorEntity#51], EntityKey[application.entities.data.SensorEntity#50], EntityKey[application.entities.data.SensorEntity#49], EntityKey[application.entities.data.SensorEntity#48], EntityKey[application.entities.data.SensorEntity#47], EntityKey[application.entities.data.SensorEntity#46], EntityKey[application.entities.data.SensorEntity#45]],collectionKeys=[CollectionKey[application.entities.data.SensorEntity.optionEntities#61], CollectionKey[application.entities.data.SensorEntity.optionEntities#62], CollectionKey[application.entities.data.SensorEntity.optionEntities#63], CollectionKey[application.entities.data.SensorEntity.optionEntities#64], CollectionKey[application.entities.data.ArduinoDeviceEntity.deviceEntities#2], CollectionKey[application.entities.data.SensorEntity.optionEntities#33], CollectionKey[application.entities.data.SensorEntity.optionEntities#34], CollectionKey[application.entities.data.SensorEntity.optionEntities#35], CollectionKey[application.entities.data.SensorEntity.optionEntities#36], CollectionKey[application.entities.data.SensorEntity.optionEntities#41], CollectionKey[application.entities.data.SensorEntity.optionEntities#42], CollectionKey[application.entities.data.SensorEntity.optionEntities#43], CollectionKey[application.entities.data.SensorEntity.optionEntities#44], CollectionKey[application.entities.data.SensorEntity.optionEntities#37], CollectionKey[application.entities.data.SensorEntity.optionEntities#38], CollectionKey[application.entities.data.SensorEntity.optionEntities#39], CollectionKey[application.entities.data.SensorEntity.optionEntities#40], CollectionKey[application.entities.data.SensorEntity.valueEntitys#45], CollectionKey[application.entities.data.SensorEntity.optionEntities#49], CollectionKey[application.entities.data.SensorEntity.valueEntitys#44], CollectionKey[application.entities.data.SensorEntity.optionEntities#50], CollectionKey[application.entities.data.SensorEntity.valueEntitys#47], CollectionKey[application.entities.data.SensorEntity.optionEntities#51], CollectionKey[application.entities.data.SensorEntity.valueEntitys#46], CollectionKey[application.entities.data.SensorEntity.optionEntities#52], CollectionKey[application.entities.data.SensorEntity.valueEntitys#41], CollectionKey[application.entities.data.SensorEntity.optionEntities#45], CollectionKey[application.entities.data.SensorEntity.valueEntitys#40], CollectionKey[application.entities.data.SensorEntity.optionEntities#46], CollectionKey[application.entities.data.SensorEntity.valueEntitys#43], CollectionKey[application.entities.data.SensorEntity.optionEntities#47], CollectionKey[application.entities.data.SensorEntity.valueEntitys#42], CollectionKey[application.entities.data.SensorEntity.optionEntities#48], CollectionKey[application.entities.data.SensorEntity.valueEntitys#37], CollectionKey[application.entities.data.SensorEntity.optionEntities#57], CollectionKey[application.entities.data.SensorEntity.valueEntitys#36], CollectionKey[application.entities.data.SensorEntity.optionEntities#58], CollectionKey[application.entities.data.ArduinoDeviceEntity.sensorEntities#2], CollectionKey[application.entities.data.SensorEntity.valueEntitys#39], CollectionKey[application.entities.data.SensorEntity.optionEntities#59], CollectionKey[application.entities.data.SensorEntity.valueEntitys#38], CollectionKey[application.entities.data.SensorEntity.optionEntities#60], CollectionKey[application.entities.data.SensorEntity.valueEntitys#33], CollectionKey[application.entities.data.SensorEntity.optionEntities#53], CollectionKey[application.entities.data.SensorEntity.optionEntities#54], CollectionKey[application.entities.data.SensorEntity.valueEntitys#35], CollectionKey[application.entities.data.SensorEntity.optionEntities#55], CollectionKey[application.entities.data.SensorEntity.valueEntitys#34], CollectionKey[application.entities.data.SensorEntity.optionEntities#56], CollectionKey[application.entities.data.SensorEntity.valueEntitys#61], CollectionKey[application.entities.data.SensorEntity.valueEntitys#60], CollectionKey[application.entities.data.SensorEntity.valueEntitys#63], CollectionKey[application.entities.data.SensorEntity.valueEntitys#62], CollectionKey[application.entities.data.SensorEntity.valueEntitys#57], CollectionKey[application.entities.data.SensorEntity.valueEntitys#56], CollectionKey[application.entities.data.SensorEntity.valueEntitys#59], CollectionKey[application.entities.data.SensorEntity.valueEntitys#58], CollectionKey[application.entities.data.SensorEntity.valueEntitys#53], CollectionKey[application.entities.data.SensorEntity.valueEntitys#52], CollectionKey[application.entities.data.SensorEntity.valueEntitys#55], CollectionKey[application.entities.data.SensorEntity.valueEntitys#54], CollectionKey[application.entities.data.SensorEntity.valueEntitys#49], CollectionKey[application.entities.data.SensorEntity.valueEntitys#48], CollectionKey[application.entities.data.SensorEntity.valueEntitys#51], CollectionKey[application.entities.data.SensorEntity.valueEntitys#50], CollectionKey[application.entities.data.SensorEntity.valueEntitys#64]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T14:43:00.378
+Unexpected IOException with stream: 2020-08-20 14:43:00,376 366830 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T14:43:00.394
+Unexpected IOException with stream: 2020-08-20 14:43:00,392 366846 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Found thread-bound EntityManager [SessionImpl(PersistenceContext[entityKeys=[EntityKey[application.entities.data.ArduinoDeviceEntity#2], EntityKey[application.entities.data.SensorEntity#64], EntityKey[application.entities.data.SensorEntity#63], EntityKey[application.entities.data.SensorEntity#62], EntityKey[application.entities.data.SensorEntity#61], EntityKey[application.entities.data.SensorEntity#44], EntityKey[application.entities.data.SensorEntity#43], EntityKey[application.entities.data.SensorEntity#42], EntityKey[application.entities.data.SensorEntity#41], EntityKey[application.entities.data.SensorEntity#40], EntityKey[application.entities.data.SensorEntity#39], EntityKey[application.entities.data.SensorEntity#38], EntityKey[application.entities.data.SensorEntity#37], EntityKey[application.entities.data.SensorEntity#36], EntityKey[application.entities.data.SensorEntity#35], EntityKey[application.entities.data.SensorEntity#34], EntityKey[application.entities.data.SensorEntity#33], EntityKey[application.entities.data.SensorEntity#60], EntityKey[application.entities.data.SensorEntity#59], EntityKey[application.entities.data.SensorEntity#58], EntityKey[application.entities.data.SensorEntity#57], EntityKey[application.entities.data.SensorEntity#56], EntityKey[application.entities.data.SensorEntity#55], EntityKey[application.entities.data.SensorEntity#54], EntityKey[application.entities.data.SensorEntity#53], EntityKey[application.entities.data.SensorEntity#52], EntityKey[application.entities.data.SensorEntity#51], EntityKey[application.entities.data.SensorEntity#50], EntityKey[application.entities.data.SensorEntity#49], EntityKey[application.entities.data.SensorEntity#48], EntityKey[application.entities.data.SensorEntity#47], EntityKey[application.entities.data.SensorEntity#46], EntityKey[application.entities.data.SensorEntity#45]],collectionKeys=[CollectionKey[application.entities.data.SensorEntity.optionEntities#61], CollectionKey[application.entities.data.SensorEntity.optionEntities#62], CollectionKey[application.entities.data.SensorEntity.optionEntities#63], CollectionKey[application.entities.data.SensorEntity.optionEntities#64], CollectionKey[application.entities.data.ArduinoDeviceEntity.deviceEntities#2], CollectionKey[application.entities.data.SensorEntity.optionEntities#33], CollectionKey[application.entities.data.SensorEntity.optionEntities#34], CollectionKey[application.entities.data.SensorEntity.optionEntities#35], CollectionKey[application.entities.data.SensorEntity.optionEntities#36], CollectionKey[application.entities.data.SensorEntity.optionEntities#41], CollectionKey[application.entities.data.SensorEntity.optionEntities#42], CollectionKey[application.entities.data.SensorEntity.optionEntities#43], CollectionKey[application.entities.data.SensorEntity.optionEntities#44], CollectionKey[application.entities.data.SensorEntity.optionEntities#37], CollectionKey[application.entities.data.SensorEntity.optionEntities#38], CollectionKey[application.entities.data.SensorEntity.optionEntities#39], CollectionKey[application.entities.data.SensorEntity.optionEntities#40], CollectionKey[application.entities.data.SensorEntity.valueEntitys#45], CollectionKey[application.entities.data.SensorEntity.optionEntities#49], CollectionKey[application.entities.data.SensorEntity.valueEntitys#44], CollectionKey[application.entities.data.SensorEntity.optionEntities#50], CollectionKey[application.entities.data.SensorEntity.valueEntitys#47], CollectionKey[application.entities.data.SensorEntity.optionEntities#51], CollectionKey[application.entities.data.SensorEntity.valueEntitys#46], CollectionKey[application.entities.data.SensorEntity.optionEntities#52], CollectionKey[application.entities.data.SensorEntity.valueEntitys#41], CollectionKey[application.entities.data.SensorEntity.optionEntities#45], CollectionKey[application.entities.data.SensorEntity.valueEntitys#40], CollectionKey[application.entities.data.SensorEntity.optionEntities#46], CollectionKey[application.entities.data.SensorEntity.valueEntitys#43], CollectionKey[application.entities.data.SensorEntity.optionEntities#47], CollectionKey[application.entities.data.SensorEntity.valueEntitys#42], CollectionKey[application.entities.data.SensorEntity.optionEntities#48], CollectionKey[application.entities.data.SensorEntity.valueEntitys#37], CollectionKey[application.entities.data.SensorEntity.optionEntities#57], CollectionKey[application.entities.data.SensorEntity.valueEntitys#36], CollectionKey[application.entities.data.SensorEntity.optionEntities#58], CollectionKey[application.entities.data.ArduinoDeviceEntity.sensorEntities#2], CollectionKey[application.entities.data.SensorEntity.valueEntitys#39], CollectionKey[application.entities.data.SensorEntity.optionEntities#59], CollectionKey[application.entities.data.SensorEntity.valueEntitys#38], CollectionKey[application.entities.data.SensorEntity.optionEntities#60], CollectionKey[application.entities.data.SensorEntity.valueEntitys#33], CollectionKey[application.entities.data.SensorEntity.optionEntities#53], CollectionKey[application.entities.data.SensorEntity.optionEntities#54], CollectionKey[application.entities.data.SensorEntity.valueEntitys#35], CollectionKey[application.entities.data.SensorEntity.optionEntities#55], CollectionKey[application.entities.data.SensorEntity.valueEntitys#34], CollectionKey[application.entities.data.SensorEntity.optionEntities#56], CollectionKey[application.entities.data.SensorEntity.valueEntitys#61], CollectionKey[application.entities.data.SensorEntity.valueEntitys#60], CollectionKey[application.entities.data.SensorEntity.valueEntitys#63], CollectionKey[application.entities.data.SensorEntity.valueEntitys#62], CollectionKey[application.entities.data.SensorEntity.valueEntitys#57], CollectionKey[application.entities.data.SensorEntity.valueEntitys#56], CollectionKey[application.entities.data.SensorEntity.valueEntitys#59], CollectionKey[application.entities.data.SensorEntity.valueEntitys#58], CollectionKey[application.entities.data.SensorEntity.valueEntitys#53], CollectionKey[application.entities.data.SensorEntity.valueEntitys#52], CollectionKey[application.entities.data.SensorEntity.valueEntitys#55], CollectionKey[application.entities.data.SensorEntity.valueEntitys#54], CollectionKey[application.entities.data.SensorEntity.valueEntitys#49], CollectionKey[application.entities.data.SensorEntity.valueEntitys#48], CollectionKey[application.entities.data.SensorEntity.valueEntitys#51], CollectionKey[application.entities.data.SensorEntity.valueEntitys#50], CollectionKey[application.entities.data.SensorEntity.valueEntitys#64]]];ActionQueue[insertions=ExecutableList{size=0} updates=ExecutableList{size=0} deletions=ExecutableList{size=0} orphanRemovals=ExecutableList{size=0} collectionCreations=ExecutableList{size=0} collectionRemovals=ExecutableList{size=0} collectionUpdates=ExecutableList{size=0} collectionQueuedOps=ExecutableList{size=0} unresolvedInsertDependencies=null])] for JPA transaction
+
+
+# Created on 2020-08-20T14:43:00.401
+Unexpected IOException with stream: 2020-08-20 14:43:00,399 366853 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Participating in existing transaction
+
+
+# Created on 2020-08-20T14:43:00.414
+Unexpected IOException with stream: 2020-08-20 14:43:00,406 366860 [main] DEBUG com.querydsl.jpa.impl.JPAQuery - select optionEntity from OptionEntity optionEntity where optionEntity.sensor.nameSensor = ?1
+
+
+# Created on 2020-08-20T14:43:00.421
+Unexpected IOException with stream: 2020-08-20 14:43:00,420 366874 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+
+
+# Created on 2020-08-20T14:43:00.433
+Unexpected IOException with stream: 2020-08-20 14:43:00,431 366885 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+
+
+# Created on 2020-08-20T14:43:00.438
+Unexpected IOException with stream: 2020-08-20 14:43:00,437 366891 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.ArduinoDeviceEntity.deviceEntities#2], was: [application.entities.data.ArduinoDeviceEntity.deviceEntities#2] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.443
+Unexpected IOException with stream: 2020-08-20 14:43:00,442 366896 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.ArduinoDeviceEntity.sensorEntities#2], was: [application.entities.data.ArduinoDeviceEntity.sensorEntities#2] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.448
+Unexpected IOException with stream: 2020-08-20 14:43:00,448 366902 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#33], was: [application.entities.data.SensorEntity.optionEntities#33] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.454
+Unexpected IOException with stream: 2020-08-20 14:43:00,453 366907 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#33], was: [application.entities.data.SensorEntity.valueEntitys#33] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.459
+Unexpected IOException with stream: 2020-08-20 14:43:00,458 366912 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#34], was: [application.entities.data.SensorEntity.optionEntities#34] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.467
+Unexpected IOException with stream: 2020-08-20 14:43:00,465 366919 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#34], was: [application.entities.data.SensorEntity.valueEntitys#34] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.473
+Unexpected IOException with stream: 2020-08-20 14:43:00,471 366925 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#35], was: [application.entities.data.SensorEntity.optionEntities#35] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.481
+Unexpected IOException with stream: 2020-08-20 14:43:00,480 366934 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#35], was: [application.entities.data.SensorEntity.valueEntitys#35] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.490
+Unexpected IOException with stream: 2020-08-20 14:43:00,489 366943 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#36], was: [application.entities.data.SensorEntity.optionEntities#36] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.500
+Unexpected IOException with stream: 2020-08-20 14:43:00,499 366953 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#36], was: [application.entities.data.SensorEntity.valueEntitys#36] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.510
+Unexpected IOException with stream: 2020-08-20 14:43:00,507 366961 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#37], was: [application.entities.data.SensorEntity.optionEntities#37] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.517
+Unexpected IOException with stream: 2020-08-20 14:43:00,516 366970 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#37], was: [application.entities.data.SensorEntity.valueEntitys#37] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.530
+Unexpected IOException with stream: 2020-08-20 14:43:00,529 366983 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#38], was: [application.entities.data.SensorEntity.optionEntities#38] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.536
+Unexpected IOException with stream: 2020-08-20 14:43:00,535 366989 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#38], was: [application.entities.data.SensorEntity.valueEntitys#38] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.547
+Unexpected IOException with stream: 2020-08-20 14:43:00,546 367000 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#39], was: [application.entities.data.SensorEntity.optionEntities#39] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.558
+Unexpected IOException with stream: 2020-08-20 14:43:00,555 367009 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#39], was: [application.entities.data.SensorEntity.valueEntitys#39] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.581
+Unexpected IOException with stream: 2020-08-20 14:43:00,579 367033 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#40], was: [application.entities.data.SensorEntity.optionEntities#40] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.588
+Unexpected IOException with stream: 2020-08-20 14:43:00,586 367040 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#40], was: [application.entities.data.SensorEntity.valueEntitys#40] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.598
+Unexpected IOException with stream: 2020-08-20 14:43:00,592 367046 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#41], was: [application.entities.data.SensorEntity.optionEntities#41] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.613
+Unexpected IOException with stream: 2020-08-20 14:43:00,612 367066 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#41], was: [application.entities.data.SensorEntity.valueEntitys#41] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.647
+Unexpected IOException with stream: 2020-08-20 14:43:00,622 367076 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#42], was: [application.entities.data.SensorEntity.optionEntities#42] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.654
+Unexpected IOException with stream: 2020-08-20 14:43:00,653 367107 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#42], was: [application.entities.data.SensorEntity.valueEntitys#42] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.662
+Unexpected IOException with stream: 2020-08-20 14:43:00,661 367115 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#43], was: [application.entities.data.SensorEntity.optionEntities#43] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.672
+Unexpected IOException with stream: 2020-08-20 14:43:00,669 367123 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#43], was: [application.entities.data.SensorEntity.valueEntitys#43] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.679
+Unexpected IOException with stream: 2020-08-20 14:43:00,678 367132 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#44], was: [application.entities.data.SensorEntity.optionEntities#44] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.686
+Unexpected IOException with stream: 2020-08-20 14:43:00,684 367138 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#44], was: [application.entities.data.SensorEntity.valueEntitys#44] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.693
+Unexpected IOException with stream: 2020-08-20 14:43:00,691 367145 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#45], was: [application.entities.data.SensorEntity.optionEntities#45] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.705
+Unexpected IOException with stream: 2020-08-20 14:43:00,704 367158 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#45], was: [application.entities.data.SensorEntity.valueEntitys#45] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.719
+Unexpected IOException with stream: 2020-08-20 14:43:00,716 367170 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#46], was: [application.entities.data.SensorEntity.optionEntities#46] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.725
+Unexpected IOException with stream: 2020-08-20 14:43:00,724 367178 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#46], was: [application.entities.data.SensorEntity.valueEntitys#46] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.732
+Unexpected IOException with stream: 2020-08-20 14:43:00,730 367184 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#47], was: [application.entities.data.SensorEntity.optionEntities#47] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.739
+Unexpected IOException with stream: 2020-08-20 14:43:00,738 367192 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#47], was: [application.entities.data.SensorEntity.valueEntitys#47] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.746
+Unexpected IOException with stream: 2020-08-20 14:43:00,745 367199 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#48], was: [application.entities.data.SensorEntity.optionEntities#48] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.754
+Unexpected IOException with stream: 2020-08-20 14:43:00,752 367206 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#48], was: [application.entities.data.SensorEntity.valueEntitys#48] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.800
+Unexpected IOException with stream: 2020-08-20 14:43:00,767 367221 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#49], was: [application.entities.data.SensorEntity.optionEntities#49] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.815
+Unexpected IOException with stream: 2020-08-20 14:43:00,812 367266 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#49], was: [application.entities.data.SensorEntity.valueEntitys#49] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.831
+Unexpected IOException with stream: 2020-08-20 14:43:00,829 367283 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#50], was: [application.entities.data.SensorEntity.optionEntities#50] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.878
+Unexpected IOException with stream: 2020-08-20 14:43:00,868 367322 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#50], was: [application.entities.data.SensorEntity.valueEntitys#50] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.889
+Unexpected IOException with stream: 2020-08-20 14:43:00,888 367342 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#51], was: [application.entities.data.SensorEntity.optionEntities#51] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.896
+Unexpected IOException with stream: 2020-08-20 14:43:00,895 367349 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#51], was: [application.entities.data.SensorEntity.valueEntitys#51] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.911
+Unexpected IOException with stream: 2020-08-20 14:43:00,910 367364 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#52], was: [application.entities.data.SensorEntity.optionEntities#52] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.931
+Unexpected IOException with stream: 2020-08-20 14:43:00,929 367383 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#52], was: [application.entities.data.SensorEntity.valueEntitys#52] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.945
+Unexpected IOException with stream: 2020-08-20 14:43:00,943 367397 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#53], was: [application.entities.data.SensorEntity.optionEntities#53] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.967
+Unexpected IOException with stream: 2020-08-20 14:43:00,955 367409 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#53], was: [application.entities.data.SensorEntity.valueEntitys#53] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.980
+Unexpected IOException with stream: 2020-08-20 14:43:00,978 367432 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#54], was: [application.entities.data.SensorEntity.optionEntities#54] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.987
+Unexpected IOException with stream: 2020-08-20 14:43:00,986 367440 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#54], was: [application.entities.data.SensorEntity.valueEntitys#54] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:00.996
+Unexpected IOException with stream: 2020-08-20 14:43:00,995 367449 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#55], was: [application.entities.data.SensorEntity.optionEntities#55] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:01.002
+Unexpected IOException with stream: 2020-08-20 14:43:01,002 367456 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#55], was: [application.entities.data.SensorEntity.valueEntitys#55] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:01.021
+Unexpected IOException with stream: 2020-08-20 14:43:01,019 367473 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#56], was: [application.entities.data.SensorEntity.optionEntities#56] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:01.029
+Unexpected IOException with stream: 2020-08-20 14:43:01,028 367482 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#56], was: [application.entities.data.SensorEntity.valueEntitys#56] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:01.035
+Unexpected IOException with stream: 2020-08-20 14:43:01,035 367489 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#57], was: [application.entities.data.SensorEntity.optionEntities#57] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:01.045
+Unexpected IOException with stream: 2020-08-20 14:43:01,043 367497 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#57], was: [application.entities.data.SensorEntity.valueEntitys#57] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:01.053
+Unexpected IOException with stream: 2020-08-20 14:43:01,052 367506 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.optionEntities#58], was: [application.entities.data.SensorEntity.optionEntities#58] (uninitialized)
+
+
+# Created on 2020-08-20T14:43:01.062
+Unexpected IOException with stream: 2020-08-20 14:43:01,061 367515 [main] DEBUG o.h.engine.internal.Collections - Collection found: [application.entities.data.SensorEntity.valueEntitys#58], was: [application.entities.data.SensorEntity.valueEntitys#58] (uninitialized)
+
+

@@ -1,0 +1,1050 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for SMART:SMART:jar:RELEASE
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-test:jar -> duplicate declaration of version (?) @ line 166, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.data:spring-data-commons:jar -> duplicate declaration of version (?) @ line 176, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.data:spring-data-commons:jar -> duplicate declaration of version (?) @ line 180, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.data:spring-data-commons:jar -> duplicate declaration of version (?) @ line 184, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------------------< SMART:SMART >-----------------------------
+[INFO] Building SMART RELEASE
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ SMART ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ SMART ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 3 resources
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ SMART ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 69 source files to D:\Mishpahug_server\SMART\target\classes
+[INFO] /D:/Mishpahug_server/SMART/src/main/java/application/utils/RandomGenerator.java: D:\Mishpahug_server\SMART\src\main\java\application\utils\RandomGenerator.java uses or overrides a deprecated API.
+[INFO] /D:/Mishpahug_server/SMART/src/main/java/application/utils/RandomGenerator.java: Recompile with -Xlint:deprecation for details.
+[INFO] /D:/Mishpahug_server/SMART/src/main/java/application/models/AppRoleDAO.java: Some input files use unchecked or unsafe operations.
+[INFO] /D:/Mishpahug_server/SMART/src/main/java/application/models/AppRoleDAO.java: Recompile with -Xlint:unchecked for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ SMART ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 12 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ SMART ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ SMART ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running application.controller.DataWebRequestTest
+2020-02-08 02:01:49,774 564  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [application.controller.DataWebRequestTest], using SpringBootContextLoader
+2020-02-08 02:01:49,797 587  [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [application.controller.DataWebRequestTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-02-08 02:01:49,799 589  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [application.controller.DataWebRequestTest]: DataWebRequestTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-02-08 02:01:50,238 1028 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration application.SmartApplication for test class application.controller.DataWebRequestTest
+2020-02-08 02:01:50,841 1631 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-02-08 02:01:50,901 1691 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@79e4c792, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@196a42c3, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@4c60d6e9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@15043a2f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4a83a74a, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1349883, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4b29d1d2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7f485fda, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@28261e8e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@d737b89, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8519cb4, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@35dab4eb]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.1.RELEASE)
+
+2020-02-08 02:02:16,864 27654 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-auto-1"]
+2020-02-08 02:02:16,921 27711 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-02-08 02:02:16,922 27712 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2020-02-08 02:02:16,967 27757 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\7-Zip;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.5.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\apache-maven-3.6.3\bin\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Serg\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.4\bin;;C:\Program Files\JetBrains\WebStorm 2019.2\bin;;.]
+2020-02-08 02:02:17,331 28121 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-02-08 02:02:19,009 29799 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-02-08 02:02:19,889 30679 [localhost-startStop-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-02-08 02:02:20,342 31132 [localhost-startStop-1] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-08 02:02:20,614 31404 [localhost-startStop-1] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.16.Final}
+2020-02-08 02:02:20,621 31411 [localhost-startStop-1] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2020-02-08 02:02:20,742 31532 [localhost-startStop-1] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2020-02-08 02:02:21,072 31862 [localhost-startStop-1] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-02-08 02:02:22,874 33664 [localhost-startStop-1] INFO  o.h.t.s.internal.SchemaCreatorImpl - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@23a9bf2f'
+2020-02-08 02:02:26,870 37660 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2020-02-08 02:02:31,451 42241 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-08 02:02:37,422 48212 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-auto-1"]
+2020-02-08 02:02:37,631 48421 [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2020-02-08 02:02:40,199 50989 [http-nio-auto-1-exec-10] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2020-02-08 02:02:40,512 51302 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:40,512 51302 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:40,512 51302 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:40,512 51302 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:40,513 51303 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:40,513 51303 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:40,513 51303 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:40,513 51303 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:40,513 51303 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:40,532 51322 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:40,532 51322 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:40,533 51323 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:40,533 51323 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:40,534 51324 [http-nio-auto-1-exec-10] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:40,826 51616 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:40,828 51618 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> headers -> Header 'authorization' = [e5f73358-6641-41fc-b9c6-56491232346d]
+2020-02-08 02:02:40,828 51618 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:40,828 51618 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> headers -> Header 'content-length' = [0]
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> Path info -> null
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> Protocol -> HTTP/1.1
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> Scheme -> http
+2020-02-08 02:02:40,830 51620 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> delete -> Requested session id -> null
+ValueEntity -> ClearData -> []
+2020-02-08 02:02:41,003 51793 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:41,003 51793 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:41,003 51793 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:41,004 51794 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,004 51794 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,004 51794 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,004 51794 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,004 51794 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,004 51794 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,005 51795 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,005 51795 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:41,005 51795 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,005 51795 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:41,005 51795 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:41,059 51849 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:41,059 51849 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'authorization' = [83eaee5f-c208-482e-8d1e-d6491fb3a6fc]
+2020-02-08 02:02:41,059 51849 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:41,061 51851 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'content-length' = [0]
+2020-02-08 02:02:41,061 51851 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,061 51851 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Path info -> null
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Scheme -> http
+2020-02-08 02:02:41,062 51852 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Requested session id -> null
+2020-02-08 02:02:41,166 51956 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:41,166 51956 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:41,166 51956 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:41,166 51956 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,166 51956 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,166 51956 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,166 51956 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,166 51956 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,167 51957 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,168 51958 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,168 51958 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:41,168 51958 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,169 51959 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:41,169 51959 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> headers -> Header 'accept' = [text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*]
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> headers -> Header 'content-type' = [text/plain;charset=ISO-8859-1]
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-charset' = [big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp]
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> headers -> Header 'content-length' = [393]
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,207 51997 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,208 51998 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,208 51998 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,208 51998 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> Path info -> null
+2020-02-08 02:02:41,208 51998 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,208 51998 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> Scheme -> http
+2020-02-08 02:02:41,208 51998 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> post -> Requested session id -> null
+2020-02-08 02:02:41,323 52113 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> headers -> Header 'accept' = [text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*]
+2020-02-08 02:02:41,323 52113 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> headers -> Header 'content-type' = [text/plain;charset=ISO-8859-1]
+2020-02-08 02:02:41,323 52113 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-charset' = [big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp]
+2020-02-08 02:02:41,323 52113 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> headers -> Header 'content-length' = [388]
+2020-02-08 02:02:41,323 52113 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,323 52113 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,323 52113 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,325 52115 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,325 52115 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,326 52116 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,326 52116 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,326 52116 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> Path info -> null
+2020-02-08 02:02:41,326 52116 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,326 52116 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> Scheme -> http
+2020-02-08 02:02:41,326 52116 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> post -> Requested session id -> null
+2020-02-08 02:02:41,424 52214 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> headers -> Header 'accept' = [text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*]
+2020-02-08 02:02:41,424 52214 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> headers -> Header 'content-type' = [text/plain;charset=ISO-8859-1]
+2020-02-08 02:02:41,424 52214 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-charset' = [big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp]
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> headers -> Header 'content-length' = [394]
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> Path info -> null
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> Scheme -> http
+2020-02-08 02:02:41,425 52215 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> post -> Requested session id -> null
+2020-02-08 02:02:41,512 52302 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> headers -> Header 'accept' = [text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*]
+2020-02-08 02:02:41,512 52302 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> headers -> Header 'content-type' = [text/plain;charset=ISO-8859-1]
+2020-02-08 02:02:41,512 52302 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-charset' = [big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp]
+2020-02-08 02:02:41,512 52302 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> headers -> Header 'content-length' = [389]
+2020-02-08 02:02:41,512 52302 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,512 52302 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,512 52302 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,516 52306 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,516 52306 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,516 52306 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,516 52306 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,516 52306 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> Path info -> null
+2020-02-08 02:02:41,516 52306 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,516 52306 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> Scheme -> http
+2020-02-08 02:02:41,516 52306 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> post -> Requested session id -> null
+2020-02-08 02:02:41,602 52392 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> headers -> Header 'accept' = [text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*]
+2020-02-08 02:02:41,603 52393 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> headers -> Header 'content-type' = [text/plain;charset=ISO-8859-1]
+2020-02-08 02:02:41,603 52393 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-charset' = [big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp]
+2020-02-08 02:02:41,603 52393 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> headers -> Header 'content-length' = [393]
+2020-02-08 02:02:41,603 52393 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,603 52393 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,603 52393 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,603 52393 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,603 52393 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,604 52394 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,604 52394 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,604 52394 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> Path info -> null
+2020-02-08 02:02:41,604 52394 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,604 52394 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> Scheme -> http
+2020-02-08 02:02:41,604 52394 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> post -> Requested session id -> null
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> headers -> Header 'accept' = [text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*]
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> headers -> Header 'content-type' = [text/plain;charset=ISO-8859-1]
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-charset' = [big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp]
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> headers -> Header 'content-length' = [387]
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,744 52534 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,745 52535 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,746 52536 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> Path info -> null
+2020-02-08 02:02:41,746 52536 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,746 52536 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> Scheme -> http
+2020-02-08 02:02:41,747 52537 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> post -> Requested session id -> null
+2020-02-08 02:02:41,864 52654 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'accept' = [text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*]
+2020-02-08 02:02:41,864 52654 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'content-type' = [text/plain;charset=ISO-8859-1]
+2020-02-08 02:02:41,864 52654 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-charset' = [big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp]
+2020-02-08 02:02:41,864 52654 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'content-length' = [390]
+2020-02-08 02:02:41,864 52654 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,864 52654 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Path info -> null
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Scheme -> http
+2020-02-08 02:02:41,865 52655 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Requested session id -> null
+2020-02-08 02:02:41,955 52745 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'accept' = [text/plain, application/xml, text/xml, application/json, application/*+xml, application/*+json, */*]
+2020-02-08 02:02:41,956 52746 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'content-type' = [text/plain;charset=ISO-8859-1]
+2020-02-08 02:02:41,956 52746 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-charset' = [big5, big5-hkscs, cesu-8, euc-jp, euc-kr, gb18030, gb2312, gbk, ibm-thai, ibm00858, ibm01140, ibm01141, ibm01142, ibm01143, ibm01144, ibm01145, ibm01146, ibm01147, ibm01148, ibm01149, ibm037, ibm1026, ibm1047, ibm273, ibm277, ibm278, ibm280, ibm284, ibm285, ibm290, ibm297, ibm420, ibm424, ibm437, ibm500, ibm775, ibm850, ibm852, ibm855, ibm857, ibm860, ibm861, ibm862, ibm863, ibm864, ibm865, ibm866, ibm868, ibm869, ibm870, ibm871, ibm918, iso-2022-cn, iso-2022-jp, iso-2022-jp-2, iso-2022-kr, iso-8859-1, iso-8859-13, iso-8859-15, iso-8859-2, iso-8859-3, iso-8859-4, iso-8859-5, iso-8859-6, iso-8859-7, iso-8859-8, iso-8859-9, jis_x0201, jis_x0212-1990, koi8-r, koi8-u, shift_jis, tis-620, us-ascii, utf-16, utf-16be, utf-16le, utf-32, utf-32be, utf-32le, utf-8, windows-1250, windows-1251, windows-1252, windows-1253, windows-1254, windows-1255, windows-1256, windows-1257, windows-1258, windows-31j, x-big5-hkscs-2001, x-big5-solaris, x-euc-jp-linux, x-euc-tw, x-eucjp-open, x-ibm1006, x-ibm1025, x-ibm1046, x-ibm1097, x-ibm1098, x-ibm1112, x-ibm1122, x-ibm1123, x-ibm1124, x-ibm1166, x-ibm1364, x-ibm1381, x-ibm1383, x-ibm300, x-ibm33722, x-ibm737, x-ibm833, x-ibm834, x-ibm856, x-ibm874, x-ibm875, x-ibm921, x-ibm922, x-ibm930, x-ibm933, x-ibm935, x-ibm937, x-ibm939, x-ibm942, x-ibm942c, x-ibm943, x-ibm943c, x-ibm948, x-ibm949, x-ibm949c, x-ibm950, x-ibm964, x-ibm970, x-iscii91, x-iso-2022-cn-cns, x-iso-2022-cn-gb, x-iso-8859-11, x-jis0208, x-jisautodetect, x-johab, x-macarabic, x-maccentraleurope, x-maccroatian, x-maccyrillic, x-macdingbat, x-macgreek, x-machebrew, x-maciceland, x-macroman, x-macromania, x-macsymbol, x-macthai, x-macturkish, x-macukraine, x-ms932_0213, x-ms950-hkscs, x-ms950-hkscs-xp, x-mswin-936, x-pck, x-sjis_0213, x-utf-16le-bom, x-utf-32be-bom, x-utf-32le-bom, x-windows-50220, x-windows-50221, x-windows-874, x-windows-949, x-windows-950, x-windows-iso2022jp]
+2020-02-08 02:02:41,956 52746 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'content-length' = [388]
+2020-02-08 02:02:41,956 52746 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:41,956 52746 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:41,956 52746 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:41,956 52746 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:41,956 52746 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:41,957 52747 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:41,957 52747 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:41,958 52748 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Path info -> null
+2020-02-08 02:02:41,958 52748 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Protocol -> HTTP/1.1
+2020-02-08 02:02:41,958 52748 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Scheme -> http
+2020-02-08 02:02:41,958 52748 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> post -> Requested session id -> null
+2020-02-08 02:02:42,225 53015 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,226 53016 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:42,226 53016 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:42,231 53021 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,232 53022 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,232 53022 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,232 53022 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,232 53022 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,232 53022 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,233 53023 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,233 53023 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:42,233 53023 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,233 53023 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:42,233 53023 [http-nio-auto-1-exec-8] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'authorization' = [de8403ba-88cd-4f0f-93f6-861cf6c70b77]
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'content-length' = [0]
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,273 53063 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Path info -> null
+2020-02-08 02:02:42,274 53064 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,276 53066 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Scheme -> http
+2020-02-08 02:02:42,276 53066 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> delete -> Requested session id -> null
+ValueEntity -> ClearData -> [ValueEntity(value=-34.53627986765166, dateUpdate=1970-05-03, timeUpdate=04:24:03), ValueEntity(value=-40.743157805280006, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-43.55749926977815, dateUpdate=1995-01-25, timeUpdate=11:00:23), ValueEntity(value=34.7197772960741, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=43.13261019080281, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-41.68288755192438, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=6.413370573346441, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-8.457848670342635, dateUpdate=1974-08-01, timeUpdate=10:03:13), ValueEntity(value=-46.24059504884427, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-5.28542266014653, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=46.282256062936064, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> []
+ValueEntity -> ClearData -> [ValueEntity(value=-7.98267853915349, dateUpdate=1987-08-10, timeUpdate=11:43:51), ValueEntity(value=-11.301588194791904, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-2.8445034488111176, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=41.13204398907872, dateUpdate=2020-02-08, timeUpdate=02:02:42)]
+ValueEntity -> ClearData -> [ValueEntity(value=40.433255548751, dateUpdate=1961-09-21, timeUpdate=04:27:23), ValueEntity(value=47.44258700460323, dateUpdate=1971-05-21, timeUpdate=13:51:51), ValueEntity(value=22.73412739100218, dateUpdate=1962-07-23, timeUpdate=00:45:10), ValueEntity(value=-48.08217898546934, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-23.632591450679342, dateUpdate=1996-05-11, timeUpdate=18:05:24), ValueEntity(value=-29.23436064737362, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-6.2963434804814895, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=12.762912607696364, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=25.086136048841833, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=12.961992071610595, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-10.0734634725708, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-6.963934024569582, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-35.49481243852695, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-29.198844804796124, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=5.653913128156198, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=27.779548811646425, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=4.046701637426594, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=15.302438297928724, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=12.514483233234643, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=12.90434887511308, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-36.65349907816798, dateUpdate=1977-03-17, timeUpdate=08:32:30), ValueEntity(value=0.7219880787670689, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-38.948884057036054, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=48.50483907557647, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=32.70632572413208, dateUpdate=2020-02-08, timeUpdate=02:02:42), ValueEntity(value=-32.7113242941691, dateUpdate=2020-02-08, timeUpdate=02:02:42)]
+ValueEntity -> ClearData -> [ValueEntity(value=49.602895124743384, dateUpdate=2002-10-12, timeUpdate=12:35:46), ValueEntity(value=-43.756147701344815, dateUpdate=1990-05-07, timeUpdate=12:25:12), ValueEntity(value=42.969986015928285, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-45.689737808653916, dateUpdate=2020-02-08, timeUpdate=02:02:42)]
+ValueEntity -> ClearData -> [ValueEntity(value=-31.915581562271655, dateUpdate=2009-09-24, timeUpdate=07:16:38), ValueEntity(value=39.97938455193692, dateUpdate=2015-05-08, timeUpdate=18:35:35), ValueEntity(value=17.009465803407494, dateUpdate=1974-01-28, timeUpdate=20:24:07), ValueEntity(value=-39.45306829545116, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-34.13490102312669, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=23.449717727253706, dateUpdate=2010-04-18, timeUpdate=02:29:26), ValueEntity(value=-22.706091883295272, dateUpdate=2018-05-01, timeUpdate=14:32:39), ValueEntity(value=8.787324324593072, dateUpdate=1966-05-08, timeUpdate=16:28:02)]
+ValueEntity -> ClearData -> [ValueEntity(value=47.01700199716012, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=23.698081646902914, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-21.88309012763041, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-13.342668927580192, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-33.053898684070035, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=29.280463984535878, dateUpdate=1981-03-01, timeUpdate=00:02:39), ValueEntity(value=-40.16030020270523, dateUpdate=1986-04-14, timeUpdate=04:45:09)]
+ValueEntity -> ClearData -> [ValueEntity(value=10.712213795204597, dateUpdate=1979-05-17, timeUpdate=04:52:07), ValueEntity(value=12.037380084554542, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=12.572072309217845, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=17.86221686330893, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=39.18145276172255, dateUpdate=1986-01-19, timeUpdate=09:22:24), ValueEntity(value=-2.6701346826310655, dateUpdate=1996-09-14, timeUpdate=00:34:32), ValueEntity(value=-29.811205519745585, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-43.905087518982214, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=19.56077728068848, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-44.08977720949879, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=2.669725281871628, dateUpdate=2020-02-08, timeUpdate=02:02:42)]
+ValueEntity -> ClearData -> [ValueEntity(value=-29.057577345146086, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-5.630140996331676, dateUpdate=2000-03-25, timeUpdate=09:45:17)]
+ValueEntity -> ClearData -> [ValueEntity(value=-45.986482071554036, dateUpdate=1960-07-27, timeUpdate=16:10:50), ValueEntity(value=35.16707431633763, dateUpdate=1995-02-25, timeUpdate=19:51:22), ValueEntity(value=44.69022716275571, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=2.698801759852998, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-28.17138814527847, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-29.174508669939485, dateUpdate=1964-11-01, timeUpdate=14:53:51), ValueEntity(value=23.95414921870771, dateUpdate=2015-10-07, timeUpdate=03:48:50), ValueEntity(value=12.69491941462951, dateUpdate=2008-05-07, timeUpdate=04:24:53), ValueEntity(value=-27.267632416812575, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=20.506728143359577, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=-16.414992179816792, dateUpdate=2020-02-08, timeUpdate=02:02:42), ValueEntity(value=29.95055516198464, dateUpdate=2020-02-08, timeUpdate=02:02:42)]
+ValueEntity -> ClearData -> [ValueEntity(value=7.688373566770345, dateUpdate=1990-01-21, timeUpdate=20:32:02), ValueEntity(value=-1.486012611305732, dateUpdate=1990-04-20, timeUpdate=01:42:12), ValueEntity(value=-31.866005530650682, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=8.052240776887167, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-11.491472824233874, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=0.38765409078298774, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> [ValueEntity(value=-9.889390121441302, dateUpdate=1989-06-12, timeUpdate=22:04), ValueEntity(value=37.182068030729525, dateUpdate=1991-05-04, timeUpdate=17:13:36), ValueEntity(value=48.39569033922584, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=13.823886272594187, dateUpdate=2020-02-08, timeUpdate=02:02:41), ValueEntity(value=40.49049575117476, dateUpdate=2020-02-08, timeUpdate=02:02:41)]
+ValueEntity -> ClearData -> []
+2020-02-08 02:02:42,441 53231 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,441 53231 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:42,441 53231 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:42,441 53231 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,441 53231 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,441 53231 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,442 53232 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,442 53232 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,442 53232 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,442 53232 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,442 53232 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:42,442 53232 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,442 53232 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:42,442 53232 [http-nio-auto-1-exec-6] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:42,466 53256 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> headers -> Header 'authorization' = [c4d4d7cd-3f2b-4bf8-8d09-52df2e5d08b6]
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> headers -> Header 'content-length' = [0]
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,467 53257 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,468 53258 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> Path info -> null
+2020-02-08 02:02:42,468 53258 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,468 53258 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> Scheme -> http
+2020-02-08 02:02:42,468 53258 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> delete -> Requested session id -> null
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,589 53379 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,590 53380 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,590 53380 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:42,590 53380 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,590 53380 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:42,590 53380 [http-nio-auto-1-exec-4] INFO  LoginController -> login -> Requested session id -> null
+Sensor with MAC = 18:14:41:29:16:88:66:84:31:52 BEGIN
+2020-02-08 02:02:42,641 53431 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,642 53432 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,645 53435 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,646 53436 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,646 53436 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 18:14:41:29:16:88:66:84:31:52 END
+Sensor with MAC = 33:66:26:43:57:47:58:08:15:28 BEGIN
+2020-02-08 02:02:42,705 53495 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,705 53495 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,705 53495 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,705 53495 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,705 53495 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,705 53495 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,705 53495 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,705 53495 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,706 53496 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,706 53496 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,706 53496 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,706 53496 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,706 53496 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,706 53496 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 33:66:26:43:57:47:58:08:15:28 END
+Sensor with MAC = 88:79:50:93:52:43:85:27:73:62 BEGIN
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,722 53512 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,723 53513 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,723 53513 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,723 53513 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,723 53513 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,723 53513 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 88:79:50:93:52:43:85:27:73:62 END
+Sensor with MAC = 70:92:26:54:47:40:32:09:10:36 BEGIN
+2020-02-08 02:02:42,739 53529 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,739 53529 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,739 53529 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,739 53529 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,739 53529 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,739 53529 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,740 53530 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,740 53530 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,740 53530 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,740 53530 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,740 53530 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,740 53530 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,740 53530 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,740 53530 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 70:92:26:54:47:40:32:09:10:36 END
+Sensor with MAC = 43:21:93:28:88:45:06:21:95:06 BEGIN
+2020-02-08 02:02:42,759 53549 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,759 53549 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,759 53549 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,760 53550 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,760 53550 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,760 53550 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,760 53550 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,761 53551 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,761 53551 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,761 53551 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,761 53551 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,761 53551 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,761 53551 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,761 53551 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 43:21:93:28:88:45:06:21:95:06 END
+Sensor with MAC = 35:33:62:69:26:58:28:04:64:33 BEGIN
+2020-02-08 02:02:42,781 53571 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,782 53572 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,783 53573 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 35:33:62:69:26:58:28:04:64:33 END
+Sensor with MAC = 14:39:49:59:72:91:39:46:68:03 BEGIN
+2020-02-08 02:02:42,804 53594 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,805 53595 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,805 53595 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,805 53595 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,805 53595 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,805 53595 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,805 53595 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,805 53595 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,805 53595 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,806 53596 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,806 53596 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,806 53596 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,806 53596 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,806 53596 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 14:39:49:59:72:91:39:46:68:03 END
+Sensor with MAC = 82:15:08:81:29:13:86:83:00:69 BEGIN
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,825 53615 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,826 53616 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,826 53616 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 82:15:08:81:29:13:86:83:00:69 END
+Sensor with MAC = 91:71:98:76:71:49:87:12:22:62 BEGIN
+2020-02-08 02:02:42,845 53635 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,846 53636 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 91:71:98:76:71:49:87:12:22:62 END
+Sensor with MAC = 38:29:20:20:20:74:30:77:91:91 BEGIN
+2020-02-08 02:02:42,873 53663 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,873 53663 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,873 53663 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,873 53663 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,873 53663 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,874 53664 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,874 53664 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,874 53664 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,874 53664 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,875 53665 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,875 53665 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,875 53665 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,875 53665 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,875 53665 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 38:29:20:20:20:74:30:77:91:91 END
+Sensor with MAC = 81:54:18:33:84:77:59:99:30:13 BEGIN
+2020-02-08 02:02:42,893 53683 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,894 53684 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,894 53684 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,897 53687 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,898 53688 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,898 53688 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,898 53688 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,902 53692 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,902 53692 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,902 53692 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,902 53692 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,902 53692 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,902 53692 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,902 53692 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 81:54:18:33:84:77:59:99:30:13 END
+Sensor with MAC = 53:26:46:36:62:12:44:82:88:82 BEGIN
+2020-02-08 02:02:42,949 53739 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,950 53740 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,951 53741 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,952 53742 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,952 53742 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,952 53742 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,952 53742 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,952 53742 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,953 53743 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,953 53743 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,953 53743 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,953 53743 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,953 53743 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,953 53743 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 53:26:46:36:62:12:44:82:88:82 END
+Sensor with MAC = 76:40:63:93:77:91:02:78:06:15 BEGIN
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,973 53763 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 76:40:63:93:77:91:02:78:06:15 END
+Sensor with MAC = 16:06:60:85:41:23:32:03:39:12 BEGIN
+2020-02-08 02:02:42,991 53781 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:42,991 53781 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:42,991 53781 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:42,991 53781 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:42,991 53781 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:42,991 53781 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:42,991 53781 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:42,991 53781 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:42,992 53782 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:42,992 53782 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:42,992 53782 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:42,992 53782 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:42,992 53782 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:42,992 53782 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 16:06:60:85:41:23:32:03:39:12 END
+Sensor with MAC = 78:44:06:34:86:48:05:45:88:86 BEGIN
+2020-02-08 02:02:43,006 53796 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,006 53796 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,007 53797 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 78:44:06:34:86:48:05:45:88:86 END
+Sensor with MAC = 37:97:31:39:25:07:57:53:81:69 BEGIN
+2020-02-08 02:02:43,023 53813 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,023 53813 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,024 53814 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 37:97:31:39:25:07:57:53:81:69 END
+Sensor with MAC = 73:13:38:52:80:54:01:83:56:60 BEGIN
+2020-02-08 02:02:43,044 53834 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,044 53834 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,045 53835 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 73:13:38:52:80:54:01:83:56:60 END
+Sensor with MAC = 84:33:84:42:05:68:70:53:91:75 BEGIN
+2020-02-08 02:02:43,065 53855 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,065 53855 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,065 53855 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,065 53855 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,065 53855 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,066 53856 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 84:33:84:42:05:68:70:53:91:75 END
+Sensor with MAC = 95:66:26:98:86:39:13:11:90:68 BEGIN
+2020-02-08 02:02:43,088 53878 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,088 53878 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,088 53878 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,088 53878 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,089 53879 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 95:66:26:98:86:39:13:11:90:68 END
+Sensor with MAC = 21:72:30:05:83:13:29:02:34:06 BEGIN
+2020-02-08 02:02:43,105 53895 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,105 53895 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,105 53895 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,106 53896 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 21:72:30:05:83:13:29:02:34:06 END
+Sensor with MAC = 92:75:10:32:68:79:64:19:01:93 BEGIN
+2020-02-08 02:02:43,121 53911 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,121 53911 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,121 53911 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,121 53911 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,121 53911 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,121 53911 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,122 53912 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,122 53912 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,122 53912 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,122 53912 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,122 53912 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,122 53912 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,122 53912 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,122 53912 [http-nio-auto-1-exec-3] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 92:75:10:32:68:79:64:19:01:93 END
+Sensor with MAC = 21:75:34:64:00:38:54:60:54:68 BEGIN
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,136 53926 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,137 53927 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,137 53927 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,137 53927 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,137 53927 [http-nio-auto-1-exec-2] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 21:75:34:64:00:38:54:60:54:68 END
+Sensor with MAC = 71:28:09:19:33:41:89:56:35:70 BEGIN
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,158 53948 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,159 53949 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,159 53949 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,159 53949 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,159 53949 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 71:28:09:19:33:41:89:56:35:70 END
+Sensor with MAC = 89:83:40:17:12:06:17:95:13:33 BEGIN
+2020-02-08 02:02:43,190 53980 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,191 53981 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,191 53981 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,191 53981 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,191 53981 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,191 53981 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,192 53982 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,192 53982 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,192 53982 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,192 53982 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,192 53982 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,192 53982 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,192 53982 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,192 53982 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 89:83:40:17:12:06:17:95:13:33 END
+Sensor with MAC = 48:91:20:35:32:48:75:37:00:71 BEGIN
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,239 54029 [http-nio-auto-1-exec-1] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 48:91:20:35:32:48:75:37:00:71 END
+Sensor with MAC = 50:92:25:06:02:94:83:19:18:34 BEGIN
+2020-02-08 02:02:43,257 54047 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,258 54048 [http-nio-auto-1-exec-10] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 50:92:25:06:02:94:83:19:18:34 END
+Sensor with MAC = 12:95:09:25:12:87:74:04:04:60 BEGIN
+2020-02-08 02:02:43,273 54063 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,274 54064 [http-nio-auto-1-exec-9] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 12:95:09:25:12:87:74:04:04:60 END
+Sensor with MAC = 62:84:92:89:70:29:07:20:76:92 BEGIN
+2020-02-08 02:02:43,309 54099 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,310 54100 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,310 54100 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,310 54100 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,310 54100 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,310 54100 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,311 54101 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,311 54101 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,311 54101 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,311 54101 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,311 54101 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,311 54101 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,311 54101 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,311 54101 [http-nio-auto-1-exec-8] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 62:84:92:89:70:29:07:20:76:92 END
+Sensor with MAC = 50:42:08:34:75:41:57:71:99:01 BEGIN
+2020-02-08 02:02:43,325 54115 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,326 54116 [http-nio-auto-1-exec-7] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 50:42:08:34:75:41:57:71:99:01 END
+Sensor with MAC = 91:01:89:41:34:56:30:91:04:69 BEGIN
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,347 54137 [http-nio-auto-1-exec-6] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 91:01:89:41:34:56:30:91:04:69 END
+Sensor with MAC = 16:88:93:70:54:91:06:65:44:73 BEGIN
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,369 54159 [http-nio-auto-1-exec-5] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 16:88:93:70:54:91:06:65:44:73 END
+Sensor with MAC = 48:88:44:02:30:14:86:25:81:31 BEGIN
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'authorization' = [632d9df8-16d6-458b-86a9-68b74b393deb]
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Path info -> null
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Scheme -> http
+2020-02-08 02:02:43,387 54177 [http-nio-auto-1-exec-4] INFO  DataFromDeviceController -> get -> Requested session id -> null
+Sensor with MAC = 48:88:44:02:30:14:86:25:81:31 END
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 55.925 s - in application.controller.DataWebRequestTest
+[INFO] Running application.controller.DeviceWebRequestTest
+Test!!!!!!!!!!!
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in application.controller.DeviceWebRequestTest
+[INFO] Running application.controller.OptionWebRequestTest
+Test!!!!!!!!!!!
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in application.controller.OptionWebRequestTest
+[INFO] Running application.controller.SensorWebRequestTest
+Test!!!!!!!!!!!
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in application.controller.SensorWebRequestTest
+[INFO] Running application.controller.UserWebRequestTest
+2020-02-08 02:02:43,543 54333 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,544 54334 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:43,544 54334 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:43,544 54334 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,544 54334 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,544 54334 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,544 54334 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,544 54334 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,544 54334 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,547 54337 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,547 54337 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:43,547 54337 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,547 54337 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:43,547 54337 [http-nio-auto-1-exec-3] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:43,615 54405 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> headers -> Header 'content-length' = [352]
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> Path info -> null
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,616 54406 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> Scheme -> http
+2020-02-08 02:02:43,617 54407 [http-nio-auto-1-exec-2] INFO  UserController -> registration -> Requested session id -> null
+2020-02-08 02:02:43,670 54460 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:43,671 54461 [http-nio-auto-1-exec-1] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:43,803 54593 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'authorization' = [5b7a1c7c-4fd9-40f4-b662-211e287d319c]
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> Path info -> null
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> Protocol -> HTTP/1.1
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> Scheme -> http
+2020-02-08 02:02:43,804 54594 [http-nio-auto-1-exec-10] INFO  UserController -> findAllByWebQuerydsl -> Requested session id -> null
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:44,207 54997 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:44,208 54998 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:44,208 54998 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:44,208 54998 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:44,208 54998 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:44,208 54998 [http-nio-auto-1-exec-9] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> Path info -> null
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> Protocol -> HTTP/1.1
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> Scheme -> http
+2020-02-08 02:02:44,237 55027 [http-nio-auto-1-exec-8] INFO  UserController -> findAllByWebQuerydsl -> Requested session id -> null
+2020-02-08 02:02:44,261 55051 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:44,261 55051 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> Path info -> null
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> Protocol -> HTTP/1.1
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> Scheme -> http
+2020-02-08 02:02:44,262 55052 [http-nio-auto-1-exec-7] INFO  UserController -> findAllByWebQuerydsl -> Requested session id -> null
+2020-02-08 02:02:44,279 55069 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:44,279 55069 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:44,279 55069 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:44,279 55069 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:44,280 55070 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:44,280 55070 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:44,280 55070 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:44,280 55070 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:44,280 55070 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> Path info -> null
+2020-02-08 02:02:44,280 55070 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> Protocol -> HTTP/1.1
+2020-02-08 02:02:44,280 55070 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> Scheme -> http
+2020-02-08 02:02:44,280 55070 [http-nio-auto-1-exec-6] INFO  UserController -> findAllByWebQuerydsl -> Requested session id -> null
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> headers -> Header 'content-type' = [application/xml;charset=UTF-8]
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> headers -> Header 'content-length' = [87]
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:44,322 55112 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:44,323 55113 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:44,323 55113 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> Path info -> null
+2020-02-08 02:02:44,323 55113 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> Protocol -> HTTP/1.1
+2020-02-08 02:02:44,323 55113 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> Scheme -> http
+2020-02-08 02:02:44,323 55113 [http-nio-auto-1-exec-5] INFO  LoginController -> login -> Requested session id -> null
+2020-02-08 02:02:44,393 55183 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> headers -> Header 'accept' = [application/xml, text/xml, application/json, application/*+xml, application/*+json]
+2020-02-08 02:02:44,394 55184 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> headers -> Header 'authorization' = [9e88c74e-27e6-4b9b-a996-b71a335278c3]
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> headers -> Header 'content-type' = [application/json]
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> headers -> Header 'content-length' = [271]
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> headers -> Header 'host' = [localhost:54227]
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> headers -> Header 'connection' = [Keep-Alive]
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> headers -> Header 'user-agent' = [Apache-HttpClient/4.5.5 (Java/1.8.0_231)]
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> headers -> Header 'accept-encoding' = [gzip,deflate]
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> Remote IP -> 127.0.0.1
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> Remote Host -> 127.0.0.1
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> Local nameOption -> 127.0.0.1
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> Path info -> null
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> Protocol -> HTTP/1.1
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> Scheme -> http
+2020-02-08 02:02:44,395 55185 [http-nio-auto-1-exec-4] INFO  UserController -> registration -> Requested session id -> null
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.542 s - in application.controller.UserWebRequestTest
+2020-02-08 02:02:45,988 56778 [Thread-3] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed drop of schema as part of SessionFactory shut-down'
+2020-02-08 02:02:46,194 56984 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-02-08 02:02:46,315 57105 [Thread-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 13, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:21 min
+[INFO] Finished at: 2020-02-08T02:02:48+02:00
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,71 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for SMART:BACKEND:jar:RELEASE
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-test:jar -> duplicate declaration of version (?) @ line 165, column 21
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.data:spring-data-commons:jar -> duplicate declaration of version (?) @ line 175, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ---------------------------< SMART:BACKEND >----------------------------
+[INFO] Building SMART RELEASE
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ BACKEND ---
+[INFO] Deleting D:\SMART\backend\target
+[INFO] 
+[INFO] --- apt-maven-plugin:1.1.3:process (default) @ BACKEND ---
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ BACKEND ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] Copying 17 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ BACKEND ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 91 source files to D:\SMART\backend\target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /D:/SMART/backend/src/main/java/application/models/data/arduino/ArduinoDeviceModel.java:[5,32] cannot find symbol
+  symbol:   class ValueRepository
+  location: package application.repositories
+[ERROR] /D:/SMART/backend/src/main/java/application/models/data/arduino/ArduinoDeviceModel.java:[36,5] cannot find symbol
+  symbol:   class ValueRepository
+  location: class application.models.data.arduino.ArduinoDeviceModel
+[ERROR] /D:/SMART/backend/src/main/java/application/configurations/dbloader/LoaderDependencies.java:[3,32] cannot find symbol
+  symbol:   class ValueRepository
+  location: package application.repositories
+[ERROR] /D:/SMART/backend/src/main/java/application/configurations/dbloader/LoaderDependencies.java:[25,12] cannot find symbol
+  symbol:   class ValueRepository
+  location: class application.configurations.dbloader.LoaderDependencies
+[INFO] 4 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.171 s
+[INFO] Finished at: 2020-08-20T19:38:37+03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.7.0:compile (default-compile) on project BACKEND: Compilation failure: Compilation failure: 
+[ERROR] /D:/SMART/backend/src/main/java/application/models/data/arduino/ArduinoDeviceModel.java:[5,32] cannot find symbol
+[ERROR]   symbol:   class ValueRepository
+[ERROR]   location: package application.repositories
+[ERROR] /D:/SMART/backend/src/main/java/application/models/data/arduino/ArduinoDeviceModel.java:[36,5] cannot find symbol
+[ERROR]   symbol:   class ValueRepository
+[ERROR]   location: class application.models.data.arduino.ArduinoDeviceModel
+[ERROR] /D:/SMART/backend/src/main/java/application/configurations/dbloader/LoaderDependencies.java:[3,32] cannot find symbol
+[ERROR]   symbol:   class ValueRepository
+[ERROR]   location: package application.repositories
+[ERROR] /D:/SMART/backend/src/main/java/application/configurations/dbloader/LoaderDependencies.java:[25,12] cannot find symbol
+[ERROR]   symbol:   class ValueRepository
+[ERROR]   location: class application.configurations.dbloader.LoaderDependencies
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
